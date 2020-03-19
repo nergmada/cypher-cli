@@ -1,1 +1,4 @@
 *.pdf
+**/logs/**
+**/__pycache__/**
+**/subconscious/**

@@ -1,0 +1,13 @@
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[?1l>Traceback (most recent call last):
+  File "/usr/lib/python3.6/curses/__init__.py", line 78, in wrapper
+    cbreak()
+_curses.error: cbreak() returned ERR
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 16, in <module>
+    print(wrapper(main))
+  File "/usr/lib/python3.6/curses/__init__.py", line 100, in wrapper
+    nocbreak()
+_curses.error: nocbreak() returned ERR

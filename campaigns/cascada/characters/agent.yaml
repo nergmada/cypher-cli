@@ -3,25 +3,40 @@ type: adept
 focus: commands mental powers
 descriptor: clumsy
 flavour: none
-abilities:
-  - light weapons
-  - four abilities from type or flavour (or both)
-weapons:
-  - ISA Light service pistol (light)
+cyphers:
+- name: Sonic Mindfucker
+  description: >
+    An ISA device, designed to reduce the resistance of suspects to psychic interrogation. This 
+    pulsating pebble like device sits on the forehead of a restrained suspect and vibrates. Eases 
+    mind reading by two steps
+- name: Light-slice Crystal**
+  description: >
+    Adepts can manipulate light-slice crystals to make themselves temporarily invisible (but still 
+    corporeal). Works by slicing the light and bending it round its wearer. Once used, the crystal 
+    is damaged and cannot be reused. Effective for 30 seconds. 
+- name: Adept Lightning Capacitors
+  description: >
+    Single use gauntlets, with pre-charged capacitors capable of delivering a targeted electrical 
+    shock across a short range with a damage of 6. Due to the ability of adepts to visualise 
+    targets, this weapon can cast around corners, and through any material that will not disrupt 
+    the path of an electrical current (i.e. water)
 equipment:
-  - Psychic Lock Pick:
-    description: >
-      Lock picking tools typically have handles and various other things, that are necessary for users that don't
-      have the ability to manipulate small physical objects with their mind. Your lock picking tools have had the handles
-      removed and special metals laced into them to make picking locks with your mind easier. Eases lock-picking tasks 
-      by one level
-  - Telekinetic Bolas:
-    description: >
-      balls on a rope are a primitive way to trip up and disturb the balance of targets, but effective when you can target
-      them accurately with your mind. Eases escaping tasks and chase tasks.
-character references:
-  - Phillipa Georgiou (Bad One)
-  - Maxwell Smart
+- name: Psychic Lock Pick
+  description: >
+    Lock picking tools typically have handles and various other things, that are necessary for 
+    users that don't have the ability to manipulate small physical objects with their mind. Your 
+    lock picking tools have had the handles removed and special metals laced into them to make 
+    picking locks with your mind easier. Eases lock-picking tasks by one level. 
+- name: Telekinetic Bolas
+  description: > 
+    balls on a rope are a primitive way to trip up and disturb the balance of targets, but 
+    effective when you can target them accurately with your mind. Eases escaping tasks and chase 
+    tasks.
+weapons:
+- name: An ISA Telekinetic Pistol
+  description: > 
+    A pistol with bullets laced for Telekinetic control, allowing the operator to fire round 
+    obstacles if effort is applied
 description: >
   A man in a hologram hurriedly warns you about an impending attack, as your computer screen flickers with a host of files
   you're receiving, suddenly the man turns. Banging can be heard on the audio, and then a hail of gun shots as the man leaves
@@ -37,3 +52,22 @@ description: >
 updates:
   - name: placeholder
     info: This is a place holder update for the agent character
+#abilities:
+#  - light weapons
+#  - four abilities from type or flavour (or both)
+#weapons:
+#  - ISA Light service pistol (light)
+#equipment:
+#  - Psychic Lock Pick:
+#    description: >
+#      Lock picking tools typically have handles and various other things, that are necessary for users that don't
+#      have the ability to manipulate small physical objects with their mind. Your lock picking tools have had the handles
+#      removed and special metals laced into them to make picking locks with your mind easier. Eases lock-picking tasks 
+#      by one level
+#  - Telekinetic Bolas:
+#    description: >
+#      balls on a rope are a primitive way to trip up and disturb the balance of targets, but effective when you can target
+#      them accurately with your mind. Eases escaping tasks and chase tasks.
+#character references:
+#  - Phillipa Georgiou (Bad One)
+#  - Maxwell Smart

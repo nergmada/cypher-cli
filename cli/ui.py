@@ -53,7 +53,7 @@ class InputBar:
     
     def get_current_input(self):
         return self.input_text
-        
+
     def set_current_input(self, txt):
         self.input_text = txt
 
@@ -108,12 +108,20 @@ class SelectionWindow:
     items = []
     selected = 0
     chosen = []
+    limit = 0
     msg = "Select by using right arrow, and left to remove:"
     indexer = "name"
 
     def __init__(self, stdscr):
         curses.noecho()
         stdscr.keypad(True)
+        self.chosen = []
+
+    def set_limit(self, mx):
+        self.limit = mx
+
+    def set_message(self, message):
+        self.msg = message
 
     def set_items(self, new_items, ind = "name"):
         self.items = new_items
@@ -145,10 +153,11 @@ class SelectionWindow:
                 self.selected -= 1
             elif "KEY_DOWN" == char and self.selected < self.max_items - 1:
                 self.selected += 1
-            elif "KEY_RIGHT" == char and not self.selected in self.chosen:
-                self.chosen.append(self.selected)
-            elif "KEY_LEFT" == char and self.selected in self.chosen:
-                self.chosen.remove(self.selected)
+            elif (self.limit != 0 and self.limit > len(self.chosen)) or self.limit == 0:
+                if "KEY_RIGHT" == char and not self.selected in self.chosen:
+                    self.chosen.append(self.selected)
+                elif "KEY_LEFT" == char and self.selected in self.chosen:
+                    self.chosen.remove(self.selected)
             elif "KEY_ENTER" == char:
                 self.enter_detected = True
         elif char == "\n":
@@ -184,6 +193,7 @@ class DictWindow:
                         stdscr.addstr(3 + (i * 2) + j, 2, sentences[j])
                     elif 3 + (i * 2) + j == my - 5:
                         stdscr.addstr(3 + (i * 2) + j, 2, "...Expand for more...")
+    
     def set_item_to_render(self, item):
         self.dict_item = item
     

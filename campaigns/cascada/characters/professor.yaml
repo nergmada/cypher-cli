@@ -3,86 +3,39 @@ type: speaker
 focus: conducts weird science
 descriptor: mad
 flavour: technology
-stats:
-  - might: 8
-  - speed: 9
-  - intellect: 15
-  - wildcard: 6
-effort: 1
-edge:
-  - might: 0
-  - speed: 0
-  - intellect: 1
-abilities:
-  - light weapons
-  - four abilities from type or flavour (or both)
-skills:
-  - Fits of Insight:
-    description: >
-      Whenever such knowledge is appropriate, the GM feeds you information although there is no clear explanation as to how
-      you could know such a thing. This is up to the GM’s discretion 
-  - Erratic Behavior: 
-    description: >
-      You are prone to acting erratically or irrationally. When you are in the presence of a major discovery or subjected to
-      great stress (such as a serious physical threat), the GM can introduce a GM intrusion that directs your next action 
-      without awarding XP. You can still pay 1 XP to refuse the intrusion. The GM’s influence is the manifestation of 
-      your madness and thus is always something you would not likely do otherwise, but it is not directly, obviously harmful 
-      to you unless there are extenuating circumstances. (For example, if a foe suddenly leaps out of the darkness, you might 
-      spend the first round babbling incoherently or screaming the name of your first true love.)
-  - Advanced AI Research:
-    description: >
-      Everyone knows that the Werr-Heyn Proof shows that AI can never achieve a level of sentience equal to that of living
-      mammals... Except you. You've dedicated your life to researching Advanced AI technologies which others consider mad
-      All interactions with intelligent systems (AI computers/robots etc) is eased by 1
-  - resisting mental attacks:
-    level: -1
-    description: >
-      Resisting mental attacks is hindered
 cyphers:
-  - Warping Nanovirus:
-    description:
+  - name: Warping Nanovirus
+    description: >
       No mad scientist would be fit without a couple of doomsday devices lying around, and at least one on their person
       at all times. The warping nanovirus came to you in a dream, and you forgot it in another dream, but alas you still
       have a vial of the prototype, loaded into an autotargetting serum injector. It deals 6 damage, plus 2 damage for 3 
       rounds as it convulses its victims organs. Victim must be in immediate range.
-  - Charged finger:
-    description:
+  - name: Charged finger
+    description: >
       The worst part about tasers is their ease to spot, so why not replace your finger for one and then amp it up to 50,000
       Volts and use it on unsuspecting victims. Your right index finger is a prosthetic taser, with a single charge use
       that when used on an unsuspecting target immediately incapacitates them. Cannot be used during combat
-clothing:
-  - Shirt
-  - Surfer shorts
-  - Sandals
-  - Hooded vest
-weapons:
 equipment:
-  - Technology scanner:
+  - name: Technology scanner
     description: >
       How can you steal other people's ideas without understanding them first? The technology scanner eases the perception
       of any tech related items.
-  - Translator:
+  - name: Translator
     description: >
       A small device you built whilst arguing with a colleague at the Scientific Institute, the translator learns any language
       and translates to and from it. Unfortunately it has a tendency to back fire and express a rude sentiment. Generally
       eases social interaction tasks across languages. May result in a GM Intrusion.
-  - Datajacker:
+  - name: Datajacker
     description: >
       You have a small port concealed by your jawline, mistakeable for a piercing, into which you can interface with most 
       computer and security terminals. You are removed from reality for the duration of a datajack, and so cannot perceive
       things going on around you. Typical data jacks take 5 mins. Eases any technology task
-  - The Book:
-    description: >
-      Much to the mockery of your colleagues, you still carry around a paper book into which you scribble notes or insights
-      that you have. As a result, you may gain additional insight during exploration of new environments
-character references:
-  - Professor Farnsworth
-  - Doc Brown
-  - Pretty much any tech guy from any sci fi series ever
+weapons: none
 description: >
   Whispers and stares in the hallway as Internal Security Agency officials carry boxes out of you office at the Scientific
   Institute. They can laugh and mock all they want, those fucking parasites, you're about to be proved right. Sentient AI
   is a possibility! Werr-Heyn was a know nothing hack! But what happened after that... 
+  
   BSci, MSci, MEng, PhD, ScD, Emeritus Professor at the Scientific Institute. You are a decorated academic, so decorated in
   fact you're on what is known as the "can't die" list. A list of over 10,000 noteworthy individuals, whose death would be
   such a loss for humanity that you have to be periodically backed up. Except being a 300 year old in a 20 something's body
@@ -92,8 +45,13 @@ description: >
   earlier, proved conclusively that sentient AI was impossible. Well conclusively for everyone but you. The fallout that 
   followed would lead to an academic rivalry so fierce some suspected (and still do) that it ended in foul play. Suffice it 
   to say the can't die list was one name shorter after Werr-Heyn's death and loss of all his backups.
+  
   Still to this day, you maintain your conviction to the fact that Werr-Heyn was wrong, and that sentient AI can exist, and
   may very well already exist.
 updates:
   - name: placeholder
     info: This is a place holder update for the professor character
+#character references:
+#  - Professor Farnsworth
+#  - Doc Brown
+#  - Pretty much any tech guy from any sci fi series ever

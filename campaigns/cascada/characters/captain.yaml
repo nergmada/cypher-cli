@@ -4,77 +4,42 @@ type: explorer
 focus: drives like a maniac
 descriptor: chaotic
 flavour: None
-#derived from descriptor and type
-stats:
-  - might: 10
-  - speed: 13
-  - intellect: 9
-  - wildcard: 6
-effort: 1
-edge:
-  - might: 1
-  - speed: 0
-  - intellect: 0
-#derived from type
-abilities:
-  - light weapons
-  - medium weapons
-  - four abilities from type or focus (or mix)
-effects:
-#derived from descriptor
-  - Intellect Defense:
-    level: 1
-    description: >
-      Eases defense rolls on intellect type damage
-  - Reroll Recovery:
-    description: >
-      Allows you to reroll the 10-hour recovery roll if you don't like it, GM intrusion if action taken
-  - Might Defense:
-    level: -1
-    description: >
-      hinders defense rolls on might type damage
 cyphers:
-#from type and cypher
-  - Stimjack Tablets:
+  - name: Stimjack Tablets
     description: >
       Stimjack Tablets were designed by Quorum R&D to wire pilots during long combat operations. Due to a limited
       supply of the ingredients necessary to make Stimjack, they're rare. You roll 1d6 and restore that many points
       when consumed. Action
-  - Electronic Eviscerator:
+  - name: Electronic Eviscerator
     description: >
       Electronic Eviscerators are an illegal hacking device, developed by a technologically advanced race that were 
       wiped out by corporate expansion. Eviscerators override almost any door with a tech lock on it. In rare cases
       doors have deadlock failsafes that prevent the eviscerator from overriding them. In this case, the eviscerator
       is not spent
-clothing:
-  - Flak Jacket (+1 Armor)
-  - Tanktop
-  - Padded Cargo Pants (+1 Armor)
-  - Tool Belt
-weapons:
-  - Telescopic Engineering Knife (Light):
-    description: >
-      A telescopic knife that expands in length to almost a katana. general melee weapon, also serves as an omni-tool 
-      for simple repair tasks, such as cutting free wires, opening panels etc. you know, for when you're not trying to scare
-      the natives
-  - Defence Pistol + flashlight (Medium):
-    description: >
-      Standard pilots service weapon, modified with a flashlight for increased visibility 
 equipment:
-  - Interstellar Astrolabe:
+  - name: Interstellar Astrolabe
     description: >
       An interstellar astrolabe can use the stars visible in the night sky to determine the current planet as well
       as where you are located on the planet. Only works at night.
-  - Planetary Map:
+  - name: Planetary Map
     description: >
       A device that contains a selection of maps for many worlds. Not universal, but most habitable and inhabited worlds
       will be available if they have a space port. Requires a location to work. Eases navigation tasks.
-  - Pilot's Guild Token:
+  - name: Pilot's Guild Token
     description: >
       The Independent Federation of Pilots, known as The Pilots Guild, or even just The Guild, is an association of
       pilots, with representation throughout the galaxy. Presentation of a pilot guild's token to the right individual
       can gain you access to some otherwise off limits locations, or a tip of information in your time of need. Eases
       select social interactions.
+weapons:
+  - name: Telescopic Engineering Knife (Light)
+    description: >
+      A telescopic knife that expands in length to almost a katana. general melee weapon, also serves as an omni-tool 
+      for simple repair tasks, such as cutting free wires, opening panels etc. you know, for when you're not trying to scare
+      the natives
+  - name: Defence Pistol + flashlight (Medium)
+    description: >
+      Standard pilots service weapon, modified with a flashlight for increased visibility 
 character references:
   - Turunga Leela
   - Starbuck
@@ -92,3 +57,39 @@ description: >
 updates:
   - name: placeholder
     info: This is a place holder update for the captain character
+
+
+##derived from descriptor and type
+#stats:
+#  - might: 10
+#  - speed: 13
+#  - intellect: 9
+#  - wildcard: 6
+#effort: 1
+#edge:
+#  - might: 1
+#  - speed: 0
+#  - intellect: 0
+##derived from type
+#abilities:
+#  - light weapons
+#  - medium weapons
+#  - four abilities from type or focus (or mix)
+#effects:
+##derived from descriptor
+#  - Intellect Defense:
+#    level: 1
+#    description: >
+#      Eases defense rolls on intellect type damage
+#  - Reroll Recovery:
+#    description: >
+#      Allows you to reroll the 10-hour recovery roll if you don't like it, GM intrusion if action taken
+#  - Might Defense:
+#    level: -1
+#    description: >
+#      hinders defense rolls on might type damage
+#clothing:
+#  - Flak Jacket (+1 Armor)
+#  - Tanktop
+#  - Padded Cargo Pants (+1 Armor)
+#  - Tool Belt

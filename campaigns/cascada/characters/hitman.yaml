@@ -3,75 +3,28 @@ type: warrior
 focus: never says die
 descriptor: honourable
 flavour: none
-stats:
-  - might: 10
-  - speed: 10
-  - intellect: 8
-  - wildcard: 6
-effort: 1
-edge:
-  - might: 1
-  - speed: 0
-  - intellect: 0
-abilities:
-  - light weapons
-  - medium weapons
-  - heavy weapons
-  - four abilities from type or flavour (or both)
-
-effects:
-  - Inelegant:
-    description: >
-      You have a certain lovable charm. You are trained in all pleasant social interactions when you express a lighthearted, 
-      self-deprecating manner.
-  - Dumb Luck:
-    description: >
-      The GM can introduce a GM intrusion on you, based on your clumsiness, without awarding you any XP (as if you had rolled
-      a 1 on a d20 roll). However, if this happens, 50% of the time, your clumsiness works to your advantage. Rather than 
-      hurting you (much), it helps you, or it hurts your enemies. You slip, but it’s just in time to duck an attack. You 
-      fall down, but you trip your enemies as you crash into their legs. You turn around too quickly, but you end up 
-      knocking the weapon from your foe’s hand.
-  - Did I Do That: 
-    description: >
-      You’ve got a certain bull-like quality. You are trained in tasks involving breaking things.
-  - No Coordination:
-    description: >
-      Any task that involves balance, grace, or hand-to-eye coordination is hindered.
 cyphers:
-  - Rebreather:
-    description:
-      An ISA rebreathing device, a single use mouth piece for breathing underwater, and in environments without available
-      raw oxygen. Usually lasts 10 minutes with normal usage. If the user over exerts themselves, depletes faster.
-  - Light-slice Crystal:
-    description:
-      Adepts can manipulate light-slice crystals to make themselves temporarily invisible (but still corporeal). Works by
-      slicing the light and bending it round its wearer. Once used, the crystal is damaged and cannot be reused. Effective
-      for 30 seconds. 
-  - Adept Lightning Capacitors:
-    description:
-      Single use gauntlets, with pre-charged capacitors capable of delivering a targeted electrical shock across a short range
-      with a damage of 6. Due to the ability of adepts to visualise targets, this weapon can cast around corners, and through
-      any material that will not disrupt the path of an electrical current (i.e. water)
-clothing:
-  - Pantsuit
-  - Hooded long coat
-  - Sneakers
+  - name: Ballbearing Bomb
+    description: > 
+      A chaotic device, designed to hurt everyone it hits, when used this device effects 3 damage 
+      to everyone and everything in immediate range ignoring armor
 weapons:
-  - ISA Light service pistol
-equipment:
-  - Psychic Lock Pick:
+  - name: Boro-Hanz Durrow Annihilator (Heavy)
     description: >
-      Lock picking tools typically have handles and various other things, that are necessary for users that don't
-      have the ability to manipulate small physical objects with their mind. Your lock picking tools have had the handles
-      removed and special metals laced into them to make picking locks with your mind easier. Eases lock-picking tasks 
-      by one level
-  - Telekinetic Bolas:
-    description: >
-      balls on a rope are a primitive way to trip up and disturb the balance of targets, but effective when you can target
-      them accurately with your mind. Eases escaping tasks and chase tasks.
-character references:
-  - Phillipa Georgiou (Bad One)
-  - Maxwell Smart
+      On Uddan 4, Durrows are a raccoon like pest that grows to be about 3 metres long, the Durrow 
+      Annihilator was developed specifically for this purpose, but has become a favourite of 
+      Assassins due to the fact it vaporises bodies. On larger targets, it has no immediate effect, 
+      but may cause sterility after prolonged exposure
+  - name: The Arc-Caster (Medium)
+    description: > 
+      A popular choice of weapon for blind hunters, the Arc-Caster is a close range scatter weapon, 
+      designed to cover a maximal radius. Unfortunately it has a significant splash zone, due to the 
+      highly piercing nature of the shrapnel it projects
+  - name: Meat Cleaver (Light)
+    description: > 
+      A meat cleaver is really the only knife you need for preparing meals, and dispatching 
+      enemies
+equipment: none
 description: >
   A man in a hologram hurriedly warns you about an impending attack, as your computer screen flickers with a host of files
   you're receiving, suddenly the man turns. Banging can be heard on the audio, and then a hail of gun shots as the man leaves
@@ -87,3 +40,8 @@ description: >
 updates:
   - name: placeholder
     info: This is a place holder update for the hitman character
+
+
+    #character references:
+#  - Phillipa Georgiou (Bad One)
+#  - Maxwell Smart

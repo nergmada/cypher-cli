@@ -11,6 +11,6 @@ def main(scr):
     stdscr = SafeRenderScreen(scr)
     campaign = choose_campaign(stdscr)
     logs = choose_or_create_log(stdscr, campaign)
-    create_or_load_players(stdscr, logs, campaign)
+    return create_or_load_players(stdscr, logs, campaign)
 
 print(wrapper(main))

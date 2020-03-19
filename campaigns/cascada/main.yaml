@@ -1,7 +1,8 @@
 name: cascada
 author: Adam Green
 description: >
-  Some basic description
+  Some basic description, this description is a fairly long and detailed description that takes up
+  several lines when it's written out in full
 startlocation: 
   region: ship
   setting: lounge
