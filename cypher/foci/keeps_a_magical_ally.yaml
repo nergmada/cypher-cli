@@ -1,17 +1,16 @@
 name: Keeps a Magical Ally
 1:
-	- Bound Magic Creature
+  - Bound Magic Creature
 2:
-	- Object Bond
-2:
-	- Hidden Closet
+  - Object Bond
+  - Hidden Closet
 3:
-	- Minor Wish
+  - Minor Wish
   - Mount
 4:
-	- Improved Object Bond
+  - Improved Object Bond
 5:
-	- Moderate Wish
+  - Moderate Wish
 6:
-	- Object Bond Mastery
+  - Object Bond Mastery
   - Trust to Luck

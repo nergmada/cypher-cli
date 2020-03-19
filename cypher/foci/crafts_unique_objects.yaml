@@ -1,17 +1,17 @@
 name: Crafts Unique Objects
 1:
-	- Crafter
-	- Master Identifier
+  - Crafter
+  - Master Identifier
 2:
-	- Artifact Tinkerer
-	- Quick Work
+  - Artifact Tinkerer
+  - Quick Work
 3:
-	- Master Crafter
+  - Master Crafter
   - Built-In Weaponry
 4:
-	- Cyphersmith
+  - Cyphersmith
 5:
-	- Innovator
+  - Innovator
 6:
-	- Inventor
+  - Inventor
   - Fusion Armor

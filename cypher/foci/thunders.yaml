@@ -1,16 +1,16 @@
 name: Thunders
 1:
-	- Thunder Beam
+  - Thunder Beam
 2:
-	- Sound Conversion Barrier
+  - Sound Conversion Barrier
 3:
-	- Nullify Sound
+  - Nullify Sound
   - Echolocation
 4:
-	- Shattering Shout
+  - Shattering Shout
 5:
-	- Subsonic Rumble
-	- Amplify Sounds
+  - Subsonic Rumble
+  - Amplify Sounds
 6:
-	- Earthquake
+  - Earthquake
   - Lethal Vibration

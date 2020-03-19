@@ -1,15 +1,15 @@
 name: Exists Partially out of Phase
 1:
-	- Walk Through Walls
+  - Walk Through Walls
 2:
-	- Defensive Phasing
+  - Defensive Phasing
 3:
-	- Phased Attack
+  - Phased Attack
   - Phase Door
 4:
-	- Ghost
+  - Ghost
 5:
-	- Untouchable
+  - Untouchable
 6:
-	- Enhanced Phased Attack
+  - Enhanced Phased Attack
   - Phase Foe

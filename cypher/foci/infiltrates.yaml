@@ -1,17 +1,17 @@
 name: Infiltrates
 1:
-	- Stealth Skills
-	- Sense Attitudes
+  - Stealth Skills
+  - Sense Attitudes
 2:
-	- Impersonate
-	- Flight Not Fight
+  - Impersonate
+  - Flight Not Fight
 3:
-	- Awareness
+  - Awareness
   - Skill With Attacks
 4:
-	- Invisibility
+  - Invisibility
 5:
-	- Evasion
+  - Evasion
 6:
-	- Brainwashing
+  - Brainwashing
   - Spring Away

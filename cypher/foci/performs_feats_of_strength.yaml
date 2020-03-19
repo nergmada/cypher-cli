@@ -1,16 +1,16 @@
 name: Performs Feats of Strength
 1:
-	- Athlete
-	- Enhanced Might Edge
+  - Athlete
+  - Enhanced Might Edge
 2:
-	- Feat of Strength
+  - Feat of Strength
 3:
-	- Iron Fist
+  - Iron Fist
   - Throw
 4:
-	- Greater Enhanced Might
+  - Greater Enhanced Might
 5:
-	- Brute Strike
+  - Brute Strike
 6:
-	- Greater Enhanced Might
+  - Greater Enhanced Might
   - Jump Attack

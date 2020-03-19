@@ -1,15 +1,15 @@
 name: Employs Magnetism
 1:
-	- Move Metal
+  - Move Metal
 2:
-	- Repel Metal
+  - Repel Metal
 3:
-	- Destroy Metal
+  - Destroy Metal
   - Guide Bolt
 4:
-	- Magnetic Field
+  - Magnetic Field
 5:
-	- Command Metal
+  - Command Metal
 6:
-	- Diamagnetism
+  - Diamagnetism
   - Iron Punch

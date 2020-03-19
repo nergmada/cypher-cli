@@ -1,16 +1,16 @@
 name: Solves Mysteries
 1:
-	- Investigator
-	- Sleuth
+  - Investigator
+  - Sleuth
 2:
-	- Out of Harm’s Way
+  - Out of Harm’s Way
 3:
-	- You Studied
+  - You Studied
   - Skill With Attacks
 4:
-	- Draw Conclusion
+  - Draw Conclusion
 5:
-	- Defuse Situation
+  - Defuse Situation
 6:
-	- Seize the Initiative
+  - Seize the Initiative
   - Greater Skill With Defense

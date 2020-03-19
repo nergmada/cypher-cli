@@ -1,16 +1,16 @@
 name: Brandishes an Exotic Sword
 1:
-	- Force Field Shield
-	- Force Bash
+  - Force Field Shield
+  - Force Bash
 2:
-	- Enveloping Shield
+  - Enveloping Shield
 3:
-	- Healing Pulse
+  - Healing Pulse
   - Throw Force Shield
 4:
-	- Energized Shield
+  - Energized Shield
 5:
-	- Force Wall
+  - Force Wall
 6:
-	- Bouncing Shield
+  - Bouncing Shield
   - Shield Burst
