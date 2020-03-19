@@ -1,0 +1,89 @@
+identifier: The Hitman
+type: warrior
+focus: never says die
+descriptor: honourable
+flavour: none
+stats:
+  - might: 10
+  - speed: 10
+  - intellect: 8
+  - wildcard: 6
+effort: 1
+edge:
+  - might: 1
+  - speed: 0
+  - intellect: 0
+abilities:
+  - light weapons
+  - medium weapons
+  - heavy weapons
+  - four abilities from type or flavour (or both)
+
+effects:
+  - Inelegant:
+    description: >
+      You have a certain lovable charm. You are trained in all pleasant social interactions when you express a lighthearted, 
+      self-deprecating manner.
+  - Dumb Luck:
+    description: >
+      The GM can introduce a GM intrusion on you, based on your clumsiness, without awarding you any XP (as if you had rolled
+      a 1 on a d20 roll). However, if this happens, 50% of the time, your clumsiness works to your advantage. Rather than 
+      hurting you (much), it helps you, or it hurts your enemies. You slip, but it’s just in time to duck an attack. You 
+      fall down, but you trip your enemies as you crash into their legs. You turn around too quickly, but you end up 
+      knocking the weapon from your foe’s hand.
+  - Did I Do That: 
+    description: >
+      You’ve got a certain bull-like quality. You are trained in tasks involving breaking things.
+  - No Coordination:
+    description: >
+      Any task that involves balance, grace, or hand-to-eye coordination is hindered.
+cyphers:
+  - Rebreather:
+    description:
+      An ISA rebreathing device, a single use mouth piece for breathing underwater, and in environments without available
+      raw oxygen. Usually lasts 10 minutes with normal usage. If the user over exerts themselves, depletes faster.
+  - Light-slice Crystal:
+    description:
+      Adepts can manipulate light-slice crystals to make themselves temporarily invisible (but still corporeal). Works by
+      slicing the light and bending it round its wearer. Once used, the crystal is damaged and cannot be reused. Effective
+      for 30 seconds. 
+  - Adept Lightning Capacitors:
+    description:
+      Single use gauntlets, with pre-charged capacitors capable of delivering a targeted electrical shock across a short range
+      with a damage of 6. Due to the ability of adepts to visualise targets, this weapon can cast around corners, and through
+      any material that will not disrupt the path of an electrical current (i.e. water)
+clothing:
+  - Pantsuit
+  - Hooded long coat
+  - Sneakers
+weapons:
+  - ISA Light service pistol
+equipment:
+  - Psychic Lock Pick:
+    description: >
+      Lock picking tools typically have handles and various other things, that are necessary for users that don't
+      have the ability to manipulate small physical objects with their mind. Your lock picking tools have had the handles
+      removed and special metals laced into them to make picking locks with your mind easier. Eases lock-picking tasks 
+      by one level
+  - Telekinetic Bolas:
+    description: >
+      balls on a rope are a primitive way to trip up and disturb the balance of targets, but effective when you can target
+      them accurately with your mind. Eases escaping tasks and chase tasks.
+character references:
+  - Phillipa Georgiou (Bad One)
+  - Maxwell Smart
+description: >
+  A man in a hologram hurriedly warns you about an impending attack, as your computer screen flickers with a host of files
+  you're receiving, suddenly the man turns. Banging can be heard on the audio, and then a hail of gun shots as the man leaves
+  the frame of the hologram and the transmission cuts out. You feel an intense and overwhelming sadness, as you cry. You slam
+  the desk with your fists, before recomposing yourself. But he means nothing to you now, who is he? Why were you so sad?
+  and what was he warning you about?
+  As a young Telepath from a privileged background, you joined the Internal Security Agency, ISA, of The Quorum of Twelve, when
+  you were 19. Telepaths are generally feared throughout the habited worlds, and occurences of telepathic abilities have
+  dropped significantly due to the stigmatisation surrounding them. Yet telepathic abilities are a great asset for people in
+  certain roles.
+  Trained to use your telepathic abilities in the field, you are a well respected agent, even in spite of the well known
+  clumsiness and chaos that follows you wherever you go.
+updates:
+  - name: placeholder
+    info: This is a place holder update for the hitman character

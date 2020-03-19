@@ -1,0 +1,705 @@
+APPEALING
+You gain the following characteristics:
+Charismatic: +2 to your Intellect Pool.
+Skill: You are trained in pleasant social
+interactions.
+Resistant to Charms: You’re aware of how
+others can manipulate and charm people, and
+you notice when those tactics are used on you.
+Because of this awareness, you are trained in
+resisting any kind of persuasion or seduction if
+you wish it.
+BENEFICENT
+You gain the following characteristics:
+Generous: Allies who have spent the last day
+with you add +1 to their recovery rolls.
+Altruistic: If you’re standing next to a creature
+that takes damage, you can intercede and take
+1 point of that damage yourself (reducing the
+damage inflicted on the creature by 1 point). If
+you have Armor, it does not provide a benefit
+when you use this ability.
+Skill: You’re trained in all tasks related to
+pleasant social interaction, putting other people
+at ease, and gaining trust.
+Helpful: Whenever you help another character,
+that character gains the benefit as if you were
+trained even if you are not trained or specialized
+in the attempted task.
+Inability: While you are alone, all Intellect and
+Speed tasks are hindered.
+BRASH
+You gain the following characteristics:
+Energetic: +2 to your Speed Pool.
+Skill: You are trained in initiative.
+Bold: You are trained in all actions that involve
+overcoming or ignoring the effects of fear or
+intimidation.
+CALM
+You gain the following characteristics:
+Bookish: +2 to your Intellect Pool.
+Skills: You are trained in four nonphysical skills
+of your choice.
+Trivia: You can come up with a random fact
+pertinent to the current situation when you wish
+it. This is always a matter of fact, not conjecture
+or supposition, and must be something you
+could have logically read or seen in the past. 
+You can do this one time, although the ability is
+renewed each time you make a recovery roll.
+Inability: You’re just not a fighter. All physical
+attacks are hindered.
+Inability: You’re not the outdoorsy type. All
+climbing, running, jumping, and swimming tasks
+are hindered.
+CHAOTIC
+You gain the following characteristics:
+Tumultuous: +4 to your Speed Pool.
+Skill: You are trained in Intellect defense
+actions.
+Chaotic: Once after each ten-hour recovery
+roll, if you don’t like the first result, you can reroll
+a die roll of your choice. If you do, and regardless
+of the outcome, the GM presents you with a GM
+intrusion.
+Inability: Your body is a bit worn from
+occasional excesses. Might defense tasks are
+hindered.
+CHARMING
+You gain the following characteristics:
+Personable: +2 to your Intellect Pool.
+Skill: You’re trained in all tasks involving
+positive or pleasant social interaction.
+Skill: You’re trained when using special
+abilities that influence the minds of others.
+Contact: You have an important contact who is
+in an influential position, such as a minor noble,
+the captain of the town guard/police, or the
+head of a large gang of thieves. You and the GM
+should work out the details together.
+Inability: You were never good at studying
+or retaining facts. Any task involving lore,
+knowledge, or understanding is hindered.
+Inability: Your willpower is not one of your
+strong points. Defense actions to resist mental
+attacks are hindered.
+Additional Equipment: You’ve managed to
+talk your way into some decent discounts and
+bonuses in recent weeks. As a result, you have
+enough cash jangling in your pocket to purchase
+a moderately priced item
+CLEVER
+You gain the following characteristics:
+Smart: +2 to your Intellect Pool.
+Skill: You’re trained in all interactions involving
+lies or trickery.
+Skill: You’re trained in defense rolls to resist
+mental effects.
+Skill: You’re trained in all tasks involving
+identifying or assessing danger, lies, quality,
+importance, function, or power.
+Inability: You were never good at studying or
+retaining trivial knowledge. Any task involving
+lore, knowledge, or understanding is hindered.
+Additional Equipment: You see through the
+schemes of others and occasionally convince
+them to believe you—even when, perhaps, they
+should not. Thanks to your clever behavior, you
+have an additional expensive item.
+CLUMSY
+You gain the following characteristics:
+Butterfingers: −2 to your Speed Pool.
+Thick-Muscled: +2 to your Might Pool.
+Inelegant: You have a certain lovable charm.
+You are trained in all pleasant social interactions
+when you express a lighthearted, self-deprecating
+manner.
+Dumb Luck: The GM can introduce a GM
+intrusion on you, based on your clumsiness,
+without awarding you any XP (as if you had rolled
+a 1 on a d20 roll). However, if this happens,
+50% of the time, your clumsiness works to your
+advantage. Rather than hurting you (much), it
+helps you, or it hurts your enemies. You slip, but
+it’s just in time to duck an attack. You fall down,
+but you trip your enemies as you crash into their
+legs. You turn around too quickly, but you end up
+knocking the weapon from your foe’s hand. You 
+and the GM should work together to determine
+the details. If the GM wishes, they can use GM
+intrusions based on your clumsiness normally
+(awarding XP).
+Skill: You’ve got a certain bull-like quality. You
+are trained in tasks involving breaking things.
+Inability: Any task that involves balance, grace,
+or hand-to-eye coordination is hindered.
+CRAVEN
+You gain the following characteristics:
+Furtive: +2 to your Speed Pool.
+Skill: You’re trained in stealth-based tasks.
+Skill: You’re trained in running actions.
+Skill: You’re trained in any action taken to
+escape danger, flee from a dangerous situation,
+or wheedle your way out of trouble.
+Inability: You do not willingly enter dangerous
+situations. Any initiative actions (to determine
+who goes first in combat) are hindered.
+Inability: You fall to pieces when you have to
+undertake a potentially dangerous task alone.
+Any such task (such as attacking a creature by
+yourself) is hindered.
+Additional Equipment: You have a good luck
+charm or protective device to keep you out of
+harm’s way.
+CREATIVE
+You gain the following characteristics:
+Inventive: +2 to your Intellect Pool.
+Original: You’re always coming up with
+something new. You’re trained in any task related
+to creating a narrative (such as a story, play,
+or scenario). This includes deception, if the
+deception involves a narrative you’re able to tell.
+Skill: You are naturally inventive. You are
+trained in one specific creative skill of your
+choice: writing, computer coding, composing
+music, painting, drawing, and so on.
+Skill: You love solving riddles and the like. You
+are trained in puzzle-solving tasks.
+Skill: To be creative requires that you always be
+learning. You are trained in any task that involves
+finding out something new, such as when you’re
+digging through a library, data bank, news
+archive, or similar collection of knowledge.
+Inability: You’re inventive but not charming.
+All tasks related to pleasant social interaction are
+hindered.
+CRUEL
+You gain the following characteristics:
+Cunning: +2 to your Intellect Pool.
+Cruelty: When you use force, you can choose
+to maim or deliver painful injuries to draw
+out your foe’s suffering. Whenever you inflict
+damage, you can choose to inflict 2 fewer points
+of damage to ease your next attack against that
+foe.
+Skill: You’re trained in tasks related to
+deception, intimidation, and persuasion when
+you interact with characters experiencing
+physical or emotional pain.
+Inability: You have a hard time connecting with
+others, understanding their motives, or sharing
+their feelings. Any task to ascertain another
+character’s motives, feelings, or disposition is
+hindered.
+Additional Equipment: You have a valuable
+memento from the last person you destroyed.
+The memento is moderately priced, and you can
+sell it or trade it for an item of equal or lesser
+value.
+DISHONORABLE
+You gain the following characteristics:
+Sneaky: +4 to your Speed Pool.
+Just Desserts: When the GM gives another
+player an experience point to award to someone
+for a GM intrusion, that player cannot give it to
+you.
+Skill: You are trained in deception.
+Skill: You are trained in stealth.
+Skill: You are trained in intimidation.
+Inability: People don’t like or trust you.
+Pleasant social interactions are hindered.
+DOOMED
+You gain the following characteristics:
+Jumpy: +2 to your Speed Pool.
+Skill: Always on the lookout for danger, you are
+trained in perception-related tasks.
+Skill: You are defense minded, so you are
+trained in Speed defense tasks.
+Skill: You are cynical and expect the worst.
+Thus, you are resistant to mental shocks. You are
+trained in Intellect defense tasks having to do
+with losing your sanity or equanimity.
+Doom: Every other time the GM uses GM
+intrusion on your character, you cannot refuse it
+and do not get an XP for it (you still get an XP to
+award to another player). This is because you are
+doomed. The universe is a cold, uncaring place,
+and your efforts are futile at best.
+EMPATHIC
+You gain the following characteristics:
+Open Mind: +4 to your Intellect Pool.
+Skill: You’re trained in tasks involving sensing
+other emotions, discerning dispositions, and
+getting a hunch about people around you.
+Skill: You’re trained in all tasks involving social
+interaction, pleasant or otherwise.
+Inability: Being so receptive to others’
+thoughts and moods makes you vulnerable to
+anything that attacks your mind. Intellect defense
+rolls are hindered.
+FAST
+You gain the following characteristics:
+Energetic: +2 to your Speed Pool.
+Skill: You are trained in running.
+Fast: You can move a short distance and still
+take another action in the same round, or you
+can move a long distance as your action without
+needing to make any kind of roll.
+Inability: You’re a sprinter, not a long-distance
+runner. You don’t have a lot of stamina. Might
+defense rolls are hindered.
+FOOLISH
+You gain the following characteristics:
+Unwise: –4 to your Intellect Pool.
+Carefree: You succeed more on luck than
+anything. Every time you roll for a task, roll twice
+and take the higher result.
+Intellect Weakness: Any time you spend points
+from your Intellect Pool, it costs you 1 more
+point than usual.
+Inability: Any Intellect defense task is hindered.
+Inability: Any task that involves seeing through
+a deception, an illusion, or a trap is hindered.
+GRACEFUL
+You gain the following characteristics:
+Agile: +2 to your Speed Pool.
+Skill: You’re trained in all tasks involving
+balance and careful movement.
+Skill: You’re trained in all tasks involving
+physical performing arts.
+Skill: You’re trained in all Speed defense tasks
+GUARDED
+You gain the following characteristics:
+Suspicious: +2 to your Intellect Pool.
+Skill: You are trained in all Intellect defense
+tasks.
+Skill: You are trained in all tasks involving
+discerning the truth, piercing disguises, and
+recognizing falsehoods and other deceptions.
+Inability: Your suspicious nature makes you
+unlikeable. Any task involving deception or
+persuasion is hindered.
+HARDY
+You gain the following characteristics:
+Mighty: +4 to your Might Pool.
+Fast Healer: You halve the time it takes to
+make a recovery roll (minimum one action).
+Almost Unstoppable: While you are impaired
+on the damage track, you function as if you were
+hale. While you are debilitated, you function as
+if you were impaired. In other words, you don’t
+suffer the effects of being impaired until you
+become debilitated, and you never suffer the
+effects of being debilitated. You still die if all your
+stat Pools are 0.
+Skill: You are trained in Might defense actions.
+Inability: Your big, strong body is slow to react.
+Any task involving initiative is hindered.
+Ponderous: When you apply Effort when
+making a Speed roll, you must spend 1 extra
+point from your Speed Pool.
+HIDEOUS
+You gain the following characteristics:
+Versatile: You get 4 additional points to divide
+among your stat Pools.
+Skill: You are trained in intimidation and any
+other fear-based interactions, if you show your
+true face.
+Skill: You are trained in disguise and stealth
+tasks.
+Inability: All tasks relating to pleasant social
+interaction are hindered.
+HONORABLE
+You gain the following characteristics:
+Stalwart: +2 to your Might Pool.
+Skill: You are trained in pleasant social
+interactions.
+Skill: You are trained in discerning people’s
+true motives or seeing through lies.
+IMPULSIVE
+You gain the following characteristics:
+Reckless: +2 to your Speed Pool.
+Skill: You’re trained in initiative actions (to
+determine who goes first in combat).
+Skill: You’re trained in Speed defense actions.
+Inability: You’ll try anything once, but quickly
+grow bored after that. Any task that involves
+patience, willpower, or discipline is hindered.
+INQUISITIVE
+You gain the following characteristics:
+Smart: +4 to your Intellect Pool.
+Skill: You are eager to learn. You are trained
+in any task that involves learning something
+new, whether you’re talking to a local to get
+information or digging through old books to find
+lore.
+Skill: You have made a study of the world. You
+are trained in any task involving geography or
+history.
+Inability: You tend to fixate on the details,
+making you somewhat oblivious to what’s
+going on around you. Any task to hear or notice
+dangers around you is hindered.
+Inability: When you see something interesting,
+you hesitate as you take in all the details.
+Initiative actions (to determine who goes first in
+combat) are hindered.
+Additional Equipment: You have three books
+on whatever subjects you choose
+INTELLIGENT
+You gain the following characteristics:
+Smart: +2 to your Intellect Pool.
+Skill: You’re trained in an area of knowledge of
+your choice.
+Skill: You’re trained in all actions that involve
+remembering or memorizing things you experience
+directly. For example, instead of being good at
+recalling details of geography that you read about
+in a book, you can remember a path through a
+set of tunnels that you’ve explored before.
+INTUITIVE
+You gain the following characteristics:
+Innate: +2 to your Intellect Pool.
+Skill: You are trained in perception tasks.
+Know What to Do: You can act immediately,
+even if it’s not your turn. Afterward, on your next
+regular turn, any action you take is hindered.
+You can do this one time, although the ability is
+renewed each time you make a recovery roll.
+JOVIAL
+You gain the following characteristics:
+Witty: +2 to your Intellect Pool.
+Skill: You’re convivial and set most people at
+ease with your attitude. You are trained in all
+tasks related to pleasant social interaction.
+Skill: You have an advantage in figuring out the
+punch lines of jokes you’ve never heard before.
+You are trained in all tasks related to solving
+puzzles and riddles.
+KIND
+You gain the following characteristics:
+Emotionally Intuitive: +2 to your Intellect Pool.
+Skill: You know what it’s like to go a mile
+in someone else’s shoes. You’re trained in all
+tasks related to pleasant social interaction and
+discerning the dispositions of others.
+Karma: Sometimes, strangers just help you
+out. To gain the aid of a stranger, you must use
+a one action, ten-minute, or one-hour recovery
+roll (without gaining its healing benefit), and
+the GM determines the nature of the aid you
+gain. Usually, the act of kindness isn’t enough
+to turn a bad situation completely around, but it
+may moderate a bad situation and lead to new
+opportunities. For example, if you are captured,
+a guard loosens your bonds slightly, brings you
+water, or delivers a message.
+Inability: Being kind comes with a few risks.
+All tasks related to detecting falsehoods are
+hindered.
+LEARNED
+You gain the following characteristics:
+Smart: +2 to your Intellect Pool.
+Skill: You’re trained in three areas of
+knowledge of your choice.
+Inability: You have few social graces. Any task
+involving charm, persuasion, or etiquette is
+hindered.
+Additional Equipment: You have two additional
+books on topics of your choice.
+LUCKY
+You gain the following characteristics:
+Luck Pool: You have one additional Pool
+called Luck that begins with 3 points, and it has
+a maximum value of 3 points. When spending
+points from any other Pool, you can take one,
+some, or all of the points from your Luck Pool
+first. When you make a recovery roll to recover
+points to any other Pool, your Luck Pool is also
+refreshed by the same number of points. When
+your Luck Pool is at 0 points, it does not count
+against your damage track. Enabler.
+Advantage: When you use 1 XP to reroll a d20
+for any roll that affects only you, add 3 to the reroll.
+MAD
+You gain the following characteristics:
+Knowledgeable: +4 to your Intellect Pool.
+Fits of Insight: Whenever such knowledge
+is appropriate, the GM feeds you information
+although there is no clear explanation as to how
+you could know such a thing. This is up to the
+GM’s discretion, but it should happen as often
+as once each session.
+Erratic Behavior: You are prone to acting
+erratically or irrationally. When you are in the
+presence of a major discovery or subjected to
+great stress (such as a serious physical threat),
+the GM can introduce a GM intrusion that
+directs your next action without awarding XP.
+You can still pay 1 XP to refuse the intrusion.
+The GM’s influence is the manifestation of
+your madness and thus is always something
+you would not likely do otherwise, but it is not
+directly, obviously harmful to you unless there
+are extenuating circumstances. (For example,
+if a foe suddenly leaps out of the darkness,
+you might spend the first round babbling
+incoherently or screaming the name of your first
+true love.)
+Skill: You are trained in one area of knowledge
+(probably something weird or esoteric).
+Inability: Your mind is quite fragile. Tasks to
+resist mental attacks are hindered.
+MECHANICAL
+You gain the following characteristics:
+Smart: +2 to your Intellect Pool.
+Skill: You’re trained in all actions involving
+identifying or understanding machines.
+Skill: You’re trained in all actions involving
+using, repairing, or crafting machines.
+Additional Equipment: You start with a variety
+of machine tools.
+MYSTERIOUS
+You gain the following characteristics:
+Skill: You are trained in all stealth tasks.
+Skill: You are trained in resisting interrogation
+or tricks to get you to talk.
+Confounding: You pull talents and abilities
+seemingly out of nowhere. You can attempt one
+task in which you have no training as if you were
+trained, attempt a task that you are trained in as
+if specialized, or gain a free level of Effort with
+a task that you are specialized in. This ability
+refreshes every time you make a recovery roll, but
+the uses never accumulate.
+Inability: People never know where they stand
+with you. Any task involving getting people to
+believe or trust you is hindered.
+MYSTICAL
+You gain the following characteristics:
+Smart: +2 to your Intellect Pool.
+Skill: You’re trained in all actions involving
+identifying or understanding the supernatural.
+Sense Magic: You can sense whether the
+supernatural is active in situations where its
+presence is not obvious. You must study an
+object or location closely for a minute to get a
+feel for whether a mystical touch is at work.
+Spell: You can perform Hedge Magic as a
+spell when you have a free hand and can pay the
+Intellect point cost.
+Inability: You have a manner or an aura that
+others find a bit unnerving. Any task involving
+charm, persuasion, or deception is hindered.
+NAIVE
+You gain the following characteristics:
+Fresh: You add +1 to your recovery rolls.
+Incorruptible: You are trained in Intellect
+defense tasks and all tasks that involve resisting
+temptation.
+Skill: You’re wide-eyed. You are trained in
+perception tasks.
+Inability: Any task that involves seeing through
+deceptions or determining someone’s secret
+motive is hindered.
+PERCEPTIVE
+You gain the following characteristics:
+Smart: +2 to your Intellect Pool.
+Skill: You have an eye for detail. You are trained
+in any task that involves finding or noticing small
+details.
+Skill: You know a little about everything. You
+are trained in any task that involves identifying
+objects or calling to mind a minor detail or bit of
+trivia.
+Skill: Your skill at making deductions can
+be imposing. You are trained in any task that
+involves intimidating another creature.
+Inability: Your confidence comes off as
+arrogance to people who don’t know you. Any
+task involving positive social interactions is
+hindered.
+Additional Equipment: You have a bag of light
+tools.
+RESILIENT
+You gain the following characteristics:
+Resistant: +2 to your Might Pool, and +2 to
+your Intellect Pool.
+Recover: You can make an extra recovery roll
+each day. This roll is just one action. So you
+can make two recovery rolls that each take one
+action, one roll that takes ten minutes, a fourth
+roll that takes one hour, and a fifth roll that
+requires ten hours of rest.
+Skill: You are trained in Might defense tasks.
+Skill: You are trained in Intellect defense tasks.
+Inability: You’re hardy but not necessarily
+strong. Any task involving moving, bending, or
+breaking things is hindered.
+Inability: You have a lot of willpower and
+mental fortitude, but you’re not necessarily
+smart. Any task involving knowledge or figuring
+out problems or puzzles is hindered.
+RISK-TAKING
+You gain the following characteristics:
+Nimble: +4 to your Speed Pool.
+Skill: You’re adept at leveraging risk, and you
+are trained in tasks that involve some element
+of chance, such as playing games or choosing
+between two or three apparently equal options.
+Pressing Your Luck: You can choose to
+automatically succeed on one task without 
+rolling, as long as the task’s difficulty is no
+higher than 6. When you do so, however, you
+also trigger a GM intrusion as if you had rolled
+a 1. The intrusion doesn’t invalidate the success,
+but it probably qualifies it in some fashion. You
+can do this one time, although the ability renews
+each time you make a ten-hour recovery roll.
+Inability: You may be nimble, but you’re not
+sneaky. Tasks related to sneaking and staying
+quiet are hindered.
+RUGGED
+You gain the following characteristics:
+Skill: You’re trained in all tasks involving
+climbing, jumping, running, and swimming.
+Skill: You’re trained in all tasks involving
+training, riding, or placating natural animals.
+Skill: You’re trained in all tasks involving
+identifying or using natural plants.
+Inability: You have no social graces and prefer
+animals to people. Any task involving charm,
+persuasion, etiquette, or deception is hindered.
+Additional Equipment: You carry an explorer’s
+pack with rope, two days’ rations, a bedroll, and
+other tools needed for outdoor survival.
+SHARP-EYED
+You gain the following characteristics:
+Skill: You’re trained in initiative actions.
+Skill: You’re trained in perception actions.
+Find the Flaw: If an opponent has a
+straightforward weakness (takes extra damage
+from fire, can’t see out of their left eye, and so
+on), the GM will tell you what it is.
+SKEPTICAL
+You gain the following characteristics:
+Insightful: +2 to your Intellect Pool.
+Skill: You’re trained in identifying.
+Skill: You’re trained in all actions that involve
+seeing through a trick, an illusion, a rhetorical ruse
+designed to evade the issue, or a lie. For example,
+you’re better at keeping your eye on the cup
+containing the hidden ball, sensing an illusion,
+or realizing if someone is lying to you (but only if
+you specifically concentrate and use this skill).
+STEALTHY
+You gain the following characteristics:
+Quick: +2 to your Speed Pool.
+Skill: You’re trained in all stealth tasks.
+Skill: You’re trained in all interactions involving
+lies or trickery.
+Skill: You’re trained in all special abilities
+involving illusions or trickery.
+Inability: You’re sneaky but not fast. All
+movement-related tasks are hindered.
+STRONG
+You’re extremely strong and physically powerful,
+and you use these qualities well, whether
+through violence or feats of prowess. You likely
+have a brawny build and impressive muscles.
+You gain the following characteristics:
+Very Powerful: +4 to your Might Pool.
+Skill: You’re trained in all actions involving
+breaking inanimate objects.
+Skill: You’re trained in all jumping actions.
+Additional Equipment: You have an extra
+medium weapon or heavy weapon.
+STRONG-WILLED
+You gain the following characteristics:
+Willful: +4 to your Intellect Pool.
+Skill: You’re trained in resisting mental effects.
+Skill: You’re trained in tasks requiring
+incredible focus or concentration.
+Inability: Willful doesn’t mean brilliant.
+Any task that involves figuring out puzzles or
+problems, memorizing things, or using lore is
+hindered.
+SWIFT
+You gain the following characteristics:
+Fast: +4 to your Speed Pool.
+Skill: You’re trained in initiative actions (to
+determine who goes first in combat).
+Skill: You’re trained in running actions.
+Inability: You’re fast but not necessarily
+graceful. Any task involving balance is hindered.
+TONGUE-TIED
+You gain the following characteristics:
+Actions, Not Words: +2 to your Might Pool,
+and +2 to your Speed Pool.
+Skill: You are trained in perception.
+Skill: You are trained in initiative (unless it’s a
+social situation).
+Inability: All tasks relating to social interaction
+are hindered.
+Inability: All tasks involving verbal communication
+or relaying information are hindered.
+TOUGH
+You gain the following characteristics:
+Resilient: +1 to Armor.
+Healthy: Add 1 to the points you regain when
+you make a recovery roll.
+Skill: You’re trained in Might defense actions.
+Additional Equipment: You have an extra light
+weapon.
+VICIOUS
+You gain the following characteristics:
+Skill: You are trained in tracking creatures. If
+a creature has wronged you, the tracking task is
+eased.
+Bloodthirsty: Once you begin fighting, you
+see only red. You inflict 2 additional points of
+damage with any attack.
+Berserk: Once you begin fighting, it’s hard for
+you to stop. In fact, it’s a difficulty 2 Intellect task
+to do so, even if your foe surrenders or you’ve
+run out of foes. If the latter occurs and you fail
+to stop, you attack the nearest ally within short
+range.
+Additional Equipment: You have a record that
+you use to list those who’ve wronged you.
+VIRTUOUS
+You gain the following characteristics:
+Dauntless: +2 to your Might Pool.
+Skill: You are trained in discerning people’s
+true motives or seeing through lies.
+Skill: Your adherence to a strict moral code
+has hardened your mind against fear, doubt, and
+outside influence. You are trained in Intellect
+defense tasks.
+WEIRD
+You gain the following characteristics:
+Inner Light: +2 to your Intellect Pool.
+Distinctive Physical Quirk: You have a unique
+physical aspect that is, well, bizarre. Depending
+on the setting, this can vary greatly. You might
+have purple hair or metal spikes on your head.
+Perhaps your hands don’t connect to your arms,
+although they move as if they do. Maybe a
+third eye stares out from the side of your head,
+or superfluous tendrils grow from your back.
+Whatever it is, your quirk might be a mutation, a
+supernatural trait (a blessing or curse), a feature
+with no explanation, or just a really wild tattoo
+that draws a lot of attention.
+A Sense for the Weird: Sometimes—at the
+GM’s discretion—weird things relating to the
+supernatural or its effects on the world seem to 
+call out to you. You can sense them from afar,
+and if you get within long range of such a thing,
+you can sense whether it is overtly dangerous or
+not.
+Skill: You are trained in supernatural
+knowledge.
+Inability: People find you unnerving. All
+tasks relating to pleasant social interaction are
+hindered.

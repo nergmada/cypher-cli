@@ -1,0 +1,69 @@
+name: Adept
+stats:
+  might: 7
+  speed: 9
+  intellect: 12
+effort: 1
+edge:
+  might: 0
+  speed: 0
+  intellect: 1
+cyphers: 3
+weapons:
+  - light
+abilities:
+  1:
+    - Distortion
+    - Erase Memories
+    - Far Step
+    - Hedge Magic
+    - Magic Training
+    - Onslaught
+    - Push
+    - Resonance Field
+    - Scan
+    - Shatter
+    - Ward
+  2:
+    - Adaptation
+    - Cutting Light
+    - Hover
+    - Mind Reading
+    - Retrieve Memories
+    - Reveal
+    - Stasis
+  3:
+    - Adroit Cypher Use
+    - Countermeasures
+    - Energy Protection
+    - Fire and Ice
+    - Force Field Barrier
+    - Sensor
+    - Targeting Eye
+  4:
+    - Death Touch
+    - Exile
+    - Invisibility
+    - Matter Cloud
+    - Mind Control
+    - Projection
+    - Rapid Processing
+    - Regeneration
+    - Reshape
+    - Wormhole
+  5:
+    - Absorb Energy
+    - Concussion
+    - Conjuration
+    - Create
+    - Dust to Dust
+    - Knowing the Unknown
+    - Master Cypher Use
+    - Teleportation
+    - True Senses
+  6:
+    - Control Weather
+    - Earthquake
+    - Move Mountains
+    - Traverse the Worlds
+    - Usurp Cypher

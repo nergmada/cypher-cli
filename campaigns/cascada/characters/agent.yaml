@@ -1,0 +1,39 @@
+identifier: The Agent
+type: adept
+focus: commands mental powers
+descriptor: clumsy
+flavour: none
+abilities:
+  - light weapons
+  - four abilities from type or flavour (or both)
+weapons:
+  - ISA Light service pistol (light)
+equipment:
+  - Psychic Lock Pick:
+    description: >
+      Lock picking tools typically have handles and various other things, that are necessary for users that don't
+      have the ability to manipulate small physical objects with their mind. Your lock picking tools have had the handles
+      removed and special metals laced into them to make picking locks with your mind easier. Eases lock-picking tasks 
+      by one level
+  - Telekinetic Bolas:
+    description: >
+      balls on a rope are a primitive way to trip up and disturb the balance of targets, but effective when you can target
+      them accurately with your mind. Eases escaping tasks and chase tasks.
+character references:
+  - Phillipa Georgiou (Bad One)
+  - Maxwell Smart
+description: >
+  A man in a hologram hurriedly warns you about an impending attack, as your computer screen flickers with a host of files
+  you're receiving, suddenly the man turns. Banging can be heard on the audio, and then a hail of gun shots as the man leaves
+  the frame of the hologram and the transmission cuts out. You feel an intense and overwhelming sadness, as you cry. You slam
+  the desk with your fists, before recomposing yourself. But he means nothing to you now, who is he? Why were you so sad?
+  and what was he warning you about?
+  As a young Telepath from a privileged background, you joined the Internal Security Agency, ISA, of The Quorum of Twelve, when
+  you were 19. Telepaths are generally feared throughout the habited worlds, and occurences of telepathic abilities have
+  dropped significantly due to the stigmatisation surrounding them. Yet telepathic abilities are a great asset for people in
+  certain roles.
+  Trained to use your telepathic abilities in the field, you are a well respected agent, even in spite of the well known
+  clumsiness and chaos that follows you wherever you go.
+updates:
+  - name: placeholder
+    info: This is a place holder update for the agent character

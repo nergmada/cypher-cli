@@ -1,0 +1,59 @@
+- name: Climbing
+  description: >
+    ability to climb physical obstacles, walls, cliff faces, etc
+- name: Hacking
+  description: >
+    ability to overcome technological security measures, such as electronic door locks, data terminals etc
+- name: Deceiving
+  description: >
+    ability to trick, deceive or otherwise beguile sentient life forms and computer systems
+- name: Escaping
+  description: >
+    ability to escape from, and break out of physical restraints, such as chains, or small locked rooms
+- name: Navigation
+  description: >
+    ability to perceive and negotiate long distance terrains and large environments such as cities
+- name: First Aid
+  description: >
+    ability to heal and restore the health of companions or NPCs who are injured or sick
+- name: Initiative
+  description: >
+    ability to react faster in combat, when combat order is determined via a speed roll, initiative lowers
+    the target number for you
+- name: Intimidation
+  description: >
+    ability to inspire fear in other NPCs to either discourage an attack or encourage them to treat you 
+    favourably
+- name: Lockpicking
+  description: > 
+    ability to overcome physical locking mechanisms such as lock boxes, cases etc.
+- name: Machinery
+  description: >
+    ability to repair and modify machinery such as ships, vehicles and other mechanical devices
+- name: Perception
+  description: >
+    ability to spot unusual aspects of an object or environment to discover secrets that lie beneath the surface
+- name: Persuasion
+  description: >
+    ability to encourage NPCs to your point of view, similar to deception, except deception may have unintended consequences
+- name: Piloting
+  description: >
+    ability to pilot space and aerial vessels, including planes, ships and various other light craft
+- name: Repairing
+  description: >
+    ability to repair technology and equipment such as weaponry, handheld tools, or computers
+- name: Riding
+  description: >
+    ability to ride tame and domesticated creatures with a large enough mass to bear your weight
+- name: Stealth
+  description: >
+    ability to bypass physical and technical security measures without being detected
+- name: Vehicle driving
+  description: >
+    ability to pilot ground vehicles such as speed bikes and low altitude cars
+- name: Basic
+  description: >
+    ability to speak galactic basic, the standard communication language for most systems in the Quorum
+- name: Cascadian
+  description: >
+    ability to speak the native tongue of the Cascadian 

@@ -1,0 +1,82 @@
+name: Speaker
+stats:
+  might: 8
+  speed: 9
+  intellect: 11
+effort: 1
+edge:
+  might: 0
+  speed: 0
+  intellect: 1
+cyphers: 2
+weapons:
+  - light
+abilities:
+  1:
+    - Anecdote
+    - Babel
+    - Demeanor of Command
+    - Encouragement
+    - Enthrall
+    - Erase Memories
+    - Fast Talk
+    - Inspire Aggression
+    - Interaction Skills
+    - Practiced With Medium Weapons
+    - Spin Identity
+    - Terrifying Presence
+    - Understanding
+  2:
+    - Basic Follower
+    - Calm Stranger
+    - Disincentivize
+    - Gather Intelligence
+    - Impart Ideal
+    - Inspiring Ease
+    - Interaction Skills
+    - Practiced in Armor
+    - Skill With Defense
+    - Speedy Recovery
+    - Unexpected Betrayal
+  3:
+    - Accelerate
+    - Blend In
+    - Discerning Mind
+    - Expert Cypher Use
+    - Expert Follower
+    - Grand Deception
+    - Lead by Inquiry
+    - Mind Reading
+    - Oratory
+    - Perfect Stranger
+    - Quick Wits
+    - Telling
+  4:
+    - Anticipate Attack
+    - Confounding Banter
+    - Feint
+    - Heightened Skills
+    - Psychosis
+    - Read the Signs
+    - Spur Effort
+    - Strategize
+    - Suggestion
+  5:
+    - Adroit Cypher Use
+    - Discipline of Watchfulness
+    - Experienced in Armor
+    - Flee
+    - Foul Aura
+    - Knowing the Unknown
+    - Regeneration
+    - Skill With Attacks
+    - Stimulate
+  6:
+    - Assume Control
+    - Battle Management
+    - Crowd Control
+    - Inspiring Success
+    - Recruit Deputy
+    - Shatter Mind
+    - True Senses
+    - Word of Command

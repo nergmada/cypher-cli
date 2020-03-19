@@ -1,0 +1,680 @@
+- name: APPEALING
+  pool:
+    might: 0
+    speed: 0
+    intellect: +2
+  trained:
+    - Social (Pleasant)
+  resistance:
+    - Persuasion
+    - Seduction
+  inability: none
+  characteristics: none
+- name: BENEFICENT
+  pool:
+    might: 0
+    speed: 0
+    intellect: 0
+  trained:
+    - Social (Pleasant)
+  resistance: none
+  characteristics:
+    - +1 Recovery Rolls for Allies (who've been in party more than one day)
+    - +1 Absorb damage for allies (No Armor Bonus)
+    - Helping another character provides bonus as if trained in that skill
+  Inability:
+    - Intellect tasks (Alone)
+    - Speed tasks (Alone) 
+- name: BRASH
+  pool:
+    might: 0
+    speed: +2
+    intellect: 0
+  trained:
+    - Initiative
+  Resistance:
+    - Fear
+    - Intimidation
+  characteristics: none
+  inability: none
+- name: CALM
+  pool:
+    might: 0
+    speed: 0
+    intellect: +2
+  trained:
+    - Four Nonphysical Skills (Wildcard)
+  resistance: none
+  characteristics:
+    - You can come up with a random fact petinent to the current situation. Must be logically derived. Renewed each recovery roll
+  inability:
+    - All Physical Attacks
+    - Climbing
+    - Running
+    - Jumping
+    - Swimming
+- name: CHAOTIC
+  pool:
+    might: 0
+    speed: +4
+    intellect: 0
+  trained:
+    - Intellect Defense
+  resistance: none
+  characteristics:
+    - Every ten hour recovery roll, you can reroll, and take the better. Results in GM Intrusion
+  inability:
+    - Might Defense
+- name: CHARMING
+  pool:
+    might: 0
+    speed: 0
+    intellect: +2
+  trained:
+    - Social (Pleasant)
+    - Special Abilities (Psychological Influence)
+  resistance:
+  characteristics:
+    - You have an important contact in an influential position. (GM/Player developed advantage)
+  inability:
+    - Knowledge Tasks
+    - Mental Defense
+  equipment:
+    inexpensive: 0
+    moderate: 1
+    expensive: 0
+    very expensive: 0
+    exorbitant: 0
+- name: CLEVER
+  pool:
+    might: 0
+    speed: 0
+    intellect: +2
+  trained:
+    - Social (Deception)
+    - Perception (Danger)
+    - Perception (Deception)
+    - Perception (Value)
+    - Perception (Behavior)
+  resistance: none
+  characteristics: none
+  inability:
+    - Knowledge Tasks
+  equipment:
+    inexpensive: 0
+    moderate: 0
+    expensive: 1
+    very expensive: 0
+    exorbitant: 0
+- name: CLUMSY
+  pool:
+    might: +2
+    speed: -2
+    intellect: 0
+  trained:
+    - Social (Pleasant)
+    - Breaking (Accidental)
+  resistance: none
+  characteristics:
+    - Dumb Luck - GM Intrusion in your favour, 50% of the time
+  inability:
+    - Dexterity Tasks
+  equipment: none
+- name: CRAVEN
+  pool:
+    might: 0
+    speed: +2
+    intellect: 0
+  trained:
+    - Stealth Tasks
+    - Running
+    - Escape Tasks
+  resistance: none
+  characteristics: none
+  inability:
+    - Initiative
+    - All Tasks (Alone)
+  equipment: none
+- name: CREATIVE
+  pool:
+    might: 0
+    speed: 0
+    intellect: +2
+  trained:
+    - Narrative Weaving Tasks
+    - One creative skill
+    - Puzzle Solving Tasks
+    - Learning Tasks (Discovery)
+  resistance: none
+  characteristics: none
+  inability:
+    - Social (Pleasant)
+  equipment: none
+- name: CRUEL
+  pool:
+    might: 0
+    speed: 0
+    intellect: +2
+  trained:
+    - Social (Deception)
+    - Intimidation
+    - Persuasion
+  resistance:
+  characteristics:
+    - Can sacrifice two damage to ease next attack
+  inability:
+    - Perception (Behavior)
+  equipment:
+    inexpensive: 0
+    moderate: 1
+    expensive: 0
+    very expensive: 0
+    exorbitant: 0
+- name: DISHONORABLE
+  pool:
+    might: 0
+    speed: +4
+    intellect: 0
+  trained:
+    - Deception
+    - Stealth
+    - Intimidation
+  resistance: none
+  characteristics:
+    - Players cannot give XP to you for GM Intrusion
+  inability:
+    - Social (Pleasant)
+  equipment: none
+- name: DOOMED
+  pool:
+    might: 0
+    speed: +2
+    intellect: 0
+  trained:
+    - Perception
+    - Speed Defense
+    - Intellect Defense (Sanity)
+  resistance: none
+  characteristics:
+    - Every other GM intrusion, you don't earn XP
+  inability: none
+  equipment: none
+- name: EMPATHIC
+  pool:
+    might: 0
+    speed: 0
+    intellect: +4
+  trained:
+    - Perception (Emotions)
+    - Social
+  resistance: none
+  characteristics: none
+  inability:
+    - Intellect Defense
+  equipment: none
+- name: FAST
+  pool:
+    might: 0
+    speed: +2
+    intellect: 0
+  trained:
+    - Running
+  resistance: none
+  characteristics:
+    - You can move a short distance and take an action as your turn
+    - You can move a long distance without any roll
+  inability:
+    - Might Defense
+  equipment: none
+- name: FOOLISH
+  pool:
+    might: 0
+    speed: 0
+    intellect: -4
+  trained:
+  resistance:
+  characteristics:
+    - Every task roll can be rerolled
+    - Spending any points from intellect costs you +1
+  inability:
+    - Intellect Defense
+    - Deception
+    - Perception (Traps)
+  equipment: none
+- name: GRACEFUL
+  pool:
+    might: 0
+    speed: +2
+    intellect: 0
+  trained:
+    - Dexterity Tasks
+    - Performance (Physical)
+    - Speed Defense
+  resistance: none
+  characteristics: none 
+  inability: none
+  equipment: none
+- name: GUARDED
+  pool:
+    might: 0
+    speed: 0
+    intellect: +2
+  trained:
+    - Intellect Defense
+    - Perception (Deception)
+  resistance: none
+  characteristics: none
+  inability:
+    - Deception
+    - Persuasion
+  equipment: none
+- name: HARDY
+  pool:
+    might: +4
+    speed: 0
+    intellect: 0
+  trained:
+    - Might Defense
+  resistance: none
+  characteristics:
+    - Recovery roll times are halved
+    - Your damage track is always one higher (Hale < Impaired), (Impaired < Debilitated)
+    - Speed Tasks with Effort applied cost one extra speed point
+  inability:
+    - Initiative
+  equipment: none
+- name: HIDEOUS
+  pool:
+    might: 0
+    speed: 0
+    intellect: 0
+  trained:
+    - Intimidation
+    - Disguise
+    - Stealth
+  resistance: none
+  characteristics: 
+    - 4 bonus points for your pools
+  inability:
+    - Social (Pleasant)
+  equipment: none
+- name: HONORABLE
+  pool:
+    might: +2
+    speed: 0
+    intellect: 0
+  trained:
+    - Social (Pleasant)
+    - Perception (Behavior)
+    - Perception (Deception)
+  resistance:
+  characteristics:
+  inability:
+  equipment:
+- name: IMPULSIVE
+  pool:
+    might: 0
+    speed: +2
+    intellect: 0
+  trained:
+    - Initiative
+    - Speed Defense
+  resistance: none
+  characteristics: none
+  inability:
+    - Tasks requiring patience or willpower
+  equipment: none
+- name: INQUISITIVE
+  pool:
+    might: 0
+    speed: 0
+    intellect: +4
+  trained:
+    - Learning Tasks (Discovery)
+    - Geography
+    - History
+  resistance: none
+  characteristics: none
+  inability:
+    - Perception (Environmental)
+    - Initiative
+  equipment: none
+- name: INTELLIGENT
+  pool:
+    might: 0
+    speed: 0
+    intellect: +2
+  trained:
+    - One Knowledge Skill
+    - Recall
+  resistance: none
+  characteristics: none
+  inability: none
+  equipment: none
+- name: INTUITIVE
+  pool:
+    might: 0
+    speed: 0
+    intellect: +2
+  trained:
+    - Perception
+  resistance: none
+  characteristics:
+    - Go first in a round, but your next turn is hindered, renewed after a recovery roll
+  inability: none
+  equipment: none
+- name: JOVIAL
+  pool:
+    might: 0
+    speed: 0
+    intellect: +2
+  trained:
+    - Social (Pleasant)
+    - Puzzle Solving Tasks
+  resistance: none
+  characteristics: none
+  inability: none
+  equipment: none
+- name: KIND
+  pool:
+    might: 0
+    speed: 0
+    intellect: +2
+  trained:
+    - Social (Pleasant)
+    - Perception (Emotions)
+  resistance: none
+  characteristics:
+    - Sacrifice a recovery roll of 10 mins or 1 hour, in exchange for some kind of help from a stranger
+  inability:
+    - Perception (Deception)
+  equipment: none
+- name: LEARNED
+  pool:
+    might: 0
+    speed: 0
+    intellect: +2
+  trained:
+    - Three Knowledge Skills
+  resistance: none
+  characteristics: none
+  inability: 
+    - Persuasion
+    - Social (Charm)
+  equipment: none
+- name: MAD
+  pool:
+    might: 0
+    speed: 0
+    intellect: +4
+  trained:
+    - One Knowledge Skill
+  resistance: none
+  characteristics: 
+    - GM Occasionally feeds you useful information
+    - GM Occasionally takes an action for your character on your behalf
+  inability:
+    - Mental Defense
+  equipment: none
+- name: MECHANICAL
+  pool:
+    might: 0
+    speed: 0
+    intellect: +2
+  trained:
+    - Perception (Machinery)
+    - Repair Tasks (Machinery)
+  resistance: none
+  characteristics: none
+  inability: none
+  equipment: none
+- name: MYSTERIOUS
+  pool:
+    might: 0
+    speed: 0
+    intellect: 0
+  trained: 
+    - Stealth
+  resistance:
+    - Interrogation
+  characteristics: 
+    - Gain an extra easing for a task, once per recovery roll (Not Accumulative)
+  inability:
+    - Persuasion
+  equipment: none
+- name: MYSTICAL
+  pool:
+    might: 0
+    speed: 0
+    intellect: +2
+  trained:
+    - Knowledge (Supernatural)
+  resistance: none
+  characteristics:
+    - Sense the presence of the supernatural
+    - Perform hedge magic (Ability) paying the intellect cost
+  inability:
+    - Persuasion
+    - Deception
+    - Social (Charm)
+  equipment: none
+- name: NAIVE
+  pool:
+    might: 0
+    speed: 0
+    intellect: 0
+  trained:
+    - Intellect Defense (Temptation)
+    - Perception
+  resistance: none
+  characteristics:
+    - +1 to recovery rolls
+  inability: 
+    - Perception (Deception)
+  equipment: none
+- name: PERCEPTIVE
+    pool:
+    might: 0
+    speed: 0
+    intellect: +2
+  trained:
+    - Perception (Detail)
+    - Perception (Recognition)
+    - Intimidation
+  resistance: none
+  characteristics: none
+  inability:
+    - Social (Pleasant)
+  equipment: none
+- name: RESILIENT
+  pool:
+    might: +2
+    speed: 0
+    intellect: +2
+  trained: 
+    - Might Defense
+    - Intellect Defense
+  resistance: none
+  characteristics: 
+    - One extra action-time recovery roll
+  inability:
+    - Might Tasks (Strength)
+    - Knowledge Tasks
+    - Puzzle Tasks
+  equipment: none
+- name: RISK-TAKING
+  pool:
+    might: 0
+    speed: +4
+    intellect: 0
+  trained:
+    - Perception (Risk)
+  resistance: none
+  characteristics:
+    - Auto Succeed at tasks with difficulty 6, results in  GM Intrusion, Refreshes after 10 hour recovery roll
+  inability:
+    - Stealth
+  equipment: none
+- name: RUGGED
+  pool:
+    might: 0
+    speed: 0
+    intellect: 0
+  trained: 
+    - Climbing
+    - Running
+    - Jumping
+    - Swimming
+    - Animal Handling
+    - Botany
+  resistance: none
+  characteristics: none
+  inability: 
+    - Social (Pleasant)
+    - Persuasion
+    - Deception
+  equipment: none
+- name: SHARP-EYED
+  pool:
+    might: 0
+    speed: 0
+    intellect: 0
+  trained: 
+    - Initiative
+    - Perception
+  resistance: none
+  characteristics: 
+    - Obvious weaknesses of opponents will be presented to you by GM
+  inability: none
+  equipment: none
+- name: SKEPTICAL
+  pool:
+    might: 0
+    speed: 0
+    intellect: +2
+  trained: 
+    - Perception (Recognition)
+    - Perception (Deception)
+  resistance: none
+  characteristics: none
+  inability: none
+  equipment: none
+- name: STEALTHY
+  pool:
+    might: 0
+    speed: +2
+    intellect: 0
+  trained:
+    - Stealth
+    - Deception
+  resistance: none
+  characteristics: none
+  inability: 
+    - Movement Tasks
+  equipment: none
+- name: STRONG
+  pool:
+    might: +4
+    speed: 0
+    intellect: 0
+  trained: 
+    - Might (Breaking)
+    - Jumping
+  resistance: none
+  characteristics: none
+  inability: none
+  equipment: none
+- name: STRONG-WILLED
+  pool:
+    might: 0
+    speed: 0
+    intellect: +4
+  trained:
+    - Intellect Defense (Mental)
+    - Concentration Tasks
+  resistance: none
+  characteristics: none
+  inability: 
+    - Puzzle Solving
+    - Knowledge
+  equipment: none
+- name: SWIFT
+  pool:
+    might: 0
+    speed: +4
+    intellect: 0
+  trained:
+    - Initiative
+    - Running
+  resistance: none
+  characteristics: none
+  inability:
+    - Balance Tasks
+  equipment: none
+- name: TONGUE-TIED
+  pool:
+    might: +2
+    speed: +2
+    intellect: 0
+  trained:
+    - Perception
+    - Initiative
+  resistance: none
+  characteristics: none
+  inability: 
+    - Social
+    - Verbal
+  equipment: none
+- name: TOUGH
+  pool:
+    might: 0
+    speed: 0
+    intellect: 0
+  trained:
+    - Might Defense
+  resistance: none
+  characteristics:
+    - +1 to Armor
+    - +1 to Recovery Roll
+  inability: none
+  equipment: none
+- name: VICIOUS
+  pool:
+    might: 0
+    speed: 0
+    intellect: 0
+  trained: none
+  resistance: none
+  characteristics: 
+    - Tracking eased if you've been wronged by the target
+    - +2 damage to all attacks
+    - Stopping fighting is a diffculty 2 task that results in you attacking allies, or surrendered foes
+  inability: none
+  equipment: none
+- name: VIRTUOUS
+  pool:
+    might: +2
+    speed: 0
+    intellect: 0
+  trained: 
+    - Perception (Behavior)
+    - Perception (Deception)
+    - Intellect Defense
+  resistance: none
+  characteristics: none
+  inability: none
+  equipment: none
+- name: WEIRD
+  pool:
+    might: 0
+    speed: 0
+    intellect: +2
+  trained: 
+    - Knowledge (Supernatural)
+  resistance: none
+  characteristics: 
+    - You have a distinctive physical quirk
+    - GM can allow you to sense a weird or supernatural calling from within long range
+  inability:
+    - Social (Pleasant)
+  equipment: none

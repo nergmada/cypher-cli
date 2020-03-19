@@ -1,0 +1,31 @@
+name: The Citrine Eagle's Lounge
+lighting: dim #normal, dim, very dim
+gravity: low #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: #small fire, large fire, electrical, radiation
+  - small fire
+adjacent:
+  - cockpit
+  - combatdeck
+  - livingquarters
+npcs:
+  - ship_ai
+majoritems:
+  - item:
+    name: Locked Door
+    actions:
+      - breakdown: 2
+      - unlock: 3
+      - others: 4
+  - item:
+    name: Emergency Locker
+    actions:
+      - open: 0
+      - lock: 0
+      - others: 4
+description: >
+  The Citrine Eagle's lounge is a utilitarian affair, with a small ornate wooden table
+  dominating the centre of an otherwise metal plating clad room. Scattered around the 
+  room is various clutter, that - due to the lack of gravity - is free floating and
+  severely reducing visibility, the larger furnishings being affixed to the floor
+  have no such issues

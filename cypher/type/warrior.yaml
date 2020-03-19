@@ -1,0 +1,74 @@
+name: Warrior
+stats:
+  might: 10
+  speed: 10
+  intellect: 8
+effort: 1
+edge:
+  might: 1
+  speed: 1
+  intellect: 0
+cyphers: 2
+weapons:
+  - light
+  - medium
+  - heavy
+abilities:
+  1:
+    - Bash
+    - Combat Prowess
+    - Control the Field
+    - Improved Edge
+    - No Need for Weapons
+    - Overwatch
+    - Physical Skills
+    - Practiced in Armor
+    - Quick Throw
+    - Swipe
+    - Trained Without Armor
+  2:
+    - Crushing Blow
+    - Hemorrhage
+    - Reload
+    - Skill With Attacks
+    - Skill With Defense
+    - Successive Attack
+  3:
+    - Deadly Aim
+    - Energy Resistance
+    - Experienced in Armor
+    - Expert Cypher Use
+    - Fury
+    - Lunge
+    - Reaction
+    - Seize the Moment
+    - Slice
+    - Spray
+    - Trick Shot
+    - Vigilance
+  4:
+    - Amazing Effort
+    - Capable Warrior
+    - Experienced Defender
+    - Feint
+    - Increased Effects
+    - Momentum
+    - Pry Open
+    - Snipe
+    - Tough As Nails
+  5:
+    - Adroit Cypher Use
+    - Arc Spray
+    - Improved Success
+    - Jump Attack
+    - Mastery in Armor
+    - Mastery With Attacks
+    - Mastery With Defense
+    - Parry
+  6:
+    - Again and Again
+    - Finishing Blow
+    - Magnificent Moment
+    - Murderer
+    - Spin Attack
+    - Weapon and Body
