@@ -3,7 +3,10 @@ import os
 import sys
 from curses import wrapper
 import curses
+import shutil
 from cli.ui import MenuWindow, DictWindow, Slider, SliderSet, SelectionWindow, InputBar
+from cli.cypher import get_type_info, collate_abilities
+from cli.markdown.player import generate_profile, generate_private_info
 
 type_info = [yaml.safe_load(open("cypher/type/" + t + ".yaml", "r")) for t in ["adept", "explorer", "speaker", "warrior"]]
 foci_info = [yaml.safe_load(open(f.path, "r")) for f in os.scandir("cypher/foci")]
@@ -49,7 +52,8 @@ def create_characters(stdscr, logs, campaign):
             if c == "\n":
                 break
         player = create_character(stdscr, logs, campaign, character)
-        yaml.safe_dump(player, open(logs[0] + "/players/" + player_name.get_current_input() + ".yaml", "w"))
+        player["player_name"] = player_name.get_current_input()
+        yaml.safe_dump(player, open(logs + "/players/" + player["player_name"] + ".yaml", "w"))
         players.append(player)
     return players
     
@@ -94,7 +98,7 @@ def create_character(stdscr, logs, campaign, profile):
 
     # Configure stats
     sliders = SliderSet(8, 2)
-    stats = [(key, value) for key, value in [x["stats"] for x in type_info if x["name"].lower() == profile["type"].lower()][0].items()]
+    stats = [(key, value) for key, value in get_type_info(profile["type"])["stats"].items()]
     for stat in stats:
         sliders.add_slider(stat[0])
         sliders.get_slider(stat[0]).set_current_value(stat[1])
@@ -112,10 +116,13 @@ def create_character(stdscr, logs, campaign, profile):
         sliders.handle_input(character)
         if remaining == 0 and character == "\n":
             break
+    #create a general stats
     profile["stats"] = {}
     for key, value in stats:
         profile["stats"][key] = sliders.get_slider(key).value()
-
+    #create a pool
+    profile["pool"] = profile["stats"].copy()
+    
     # Warrior Might Vs Speed
     
     if profile["type"].lower() == "warrior":
@@ -142,7 +149,7 @@ def create_character(stdscr, logs, campaign, profile):
                 "intellect": 0
             }
     else:
-        profile["edge"] = [x["edge"] for x in type_info if x["name"].lower() == profile["type"].lower()][0]
+        profile["edge"] = get_type_info(profile["type"])["edge"].copy()
     #Clothing
     clothing = []
     clothing_input = InputBar(stdscr)
@@ -165,12 +172,8 @@ def create_character(stdscr, logs, campaign, profile):
     profile["clothing"] = clothing
 
     #select abilities
-    abilities = [x["abilities"][1] for x in type_info if x["name"].lower() == profile["type"].lower()]
-    abilities += [x[1] for x in foci_info if x["name"].lower() == profile["focus"].lower()]
-    if profile["flavour"] != "none":
-        abilities += [x[1] for x in flavour_info if x["name"].lower() == profile["flavour"].lower()]
-
-    abilities = [{'name': ability} for ability in sorted(set([y for x in abilities for y in x]))]
+    abilities = collate_abilities(profile["type"], profile["focus"], profile["flavour"])[1]
+    abilities = [{'name': ability} for ability in sorted(set(abilities))]
 
     abilities_choices = SelectionWindow(stdscr)
     abilities_choices.set_items(abilities)
@@ -186,12 +189,26 @@ def create_character(stdscr, logs, campaign, profile):
         remaining = 4 - len(abilities_choices.get_chosen())
         abilities_choices.set_message("Use arrows to select " + str(remaining) +" abilities, then hit enter")
     profile["abilities"] = {}
-    profile["abilities"][1] = abilities_choices.get_chosen()
+    profile["abilities"][1] = [x["name"] for x in abilities_choices.get_chosen()]
     
+    #set XP to zero
+    profile["xp"] = 0
     return profile
 
 def create_or_load_players(stdscr, logs, campaign):
-    if check_for_players(logs[0]):
-        players = get_players(logs[0])
+    if check_for_players(logs):
+        players = get_players(logs)
+        generate_subconscious(players)
+        return players
     else:
-        return create_characters(stdscr, logs, campaign)
+        players = create_characters(stdscr, logs, campaign)
+        generate_subconscious(players)
+        return players
+
+def generate_subconscious(players):
+    shutil.rmtree("subconscious")
+    os.mkdir("subconscious")    
+    for player in players:
+        os.mkdir("subconscious/" + player["player_name"].lower())
+        open("subconscious/" + player["player_name"].lower() + "/shared.md", "w").write(generate_profile(player))
+        open("subconscious/" + player["player_name"].lower() + "/private.md", "w").write(generate_private_info(player))

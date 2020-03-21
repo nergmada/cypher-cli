@@ -3,7 +3,7 @@ identifier: The Captain
 type: explorer
 focus: drives like a maniac
 descriptor: chaotic
-flavour: None
+flavour: none
 cyphers:
   - name: Stimjack Tablets
     description: >

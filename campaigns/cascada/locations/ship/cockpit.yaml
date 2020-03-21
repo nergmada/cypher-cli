@@ -7,31 +7,14 @@ adjacent:
   - lounge
   - engineroom
 npcs:
+  known: []
+  unknown:
   - ship_ai
 items:
-  - name: Blanket
-    actions:
-      - wrap: 0
-      - make-bandages: 2
-      - others: 4
-    description: >
-      A old fabric blanket, a primitive technology to keep warm blooded species warm
-  - name: Console
-    actions:
-      - use: 1
-      - others: 4
-    description: >
-      A console, perhaps used by and experience pilot or captain to manage the ships' systems
-  - name: Damaged Console
-    actions:
-      - repair: 6
-      - others: 10
-  - name: Religious Beads
-    actions:
-      - pick-up: 0
-    description: >
-      Religious beads, tied into a necklace like string, perhaps they have some sentimental value
-      if not a economic one
+  - blanket
+  - console
+  - damaged console
+  - religious beads
 description: >
   The Citrine Eagle's Cockpit is a cluttered mess, containing a raised chair in the left
   of the large porthole that overlooks the direction of travel, behind on the left and right

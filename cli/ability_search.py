@@ -7,8 +7,13 @@ from cli.ui import InputBar, MenuWindow, DictWindow
 
 abilities = yaml.safe_load(open("cypher/abilities.yaml"))
 
-def search(term):
+def get_all_abilities():
+    return [x["name"] for x in abilities]
+
+def ability_search(term):
+    term = term.replace("_", " ")
     return [x for x in abilities if re.search(term.lower(), x["name"].lower())]
+
 
 def search_abilities(stdscr):
     search_bar = InputBar(stdscr)
@@ -16,7 +21,7 @@ def search_abilities(stdscr):
     while True:
         stdscr.refresh(True)
         
-        menu_window.set_items(search(search_bar.get_current_input()))
+        menu_window.set_items(ability_search(search_bar.get_current_input()))
         
         menu_window.render(stdscr)
         search_bar.render(stdscr)
@@ -41,4 +46,4 @@ def render_result(stdscr, result):
             break
 
 
-wrapper(search_abilities)
+#wrapper(search_abilities)

@@ -26,17 +26,23 @@ weapons:
       enemies
 equipment: none
 description: >
-  A man in a hologram hurriedly warns you about an impending attack, as your computer screen flickers with a host of files
-  you're receiving, suddenly the man turns. Banging can be heard on the audio, and then a hail of gun shots as the man leaves
-  the frame of the hologram and the transmission cuts out. You feel an intense and overwhelming sadness, as you cry. You slam
-  the desk with your fists, before recomposing yourself. But he means nothing to you now, who is he? Why were you so sad?
-  and what was he warning you about?
-  As a young Telepath from a privileged background, you joined the Internal Security Agency, ISA, of The Quorum of Twelve, when
-  you were 19. Telepaths are generally feared throughout the habited worlds, and occurences of telepathic abilities have
-  dropped significantly due to the stigmatisation surrounding them. Yet telepathic abilities are a great asset for people in
-  certain roles.
-  Trained to use your telepathic abilities in the field, you are a well respected agent, even in spite of the well known
-  clumsiness and chaos that follows you wherever you go.
+  The smoke of a burning Uspid Pot fills the hotel room, the local narcotic 
+  delicacy is not to your taste, but your half naked companion likes it and 
+  so that's good enough. The receiver on the table side buzzes once, and 
+  you answer. Instructions to intercept an ISA security team and recover 
+  a data payload from them, The rest is a blur, but now you're on their 
+  ship, and neither you nor they are dead, so circumstances have clearly 
+  changed. What happened in the 24 hours since then, is less clear.
+
+  You are an Orrin Corporation clone. The Orrin Corporation uses clones 
+  to genetically enhance them for specific tasks that unenhanced humans 
+  can't do. It is illegal to clone on most worlds, but clones are protected 
+  under Quorum charter, so once created, it is illegal to destroy them just 
+  for existing.
+
+  You were one of three, cloned for the purpose of private corporate 
+  espionage, assassination and if necessary special operations in private 
+  corporate wars. 
 updates:
   - name: placeholder
     info: This is a place holder update for the hitman character

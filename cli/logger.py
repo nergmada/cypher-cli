@@ -5,8 +5,8 @@ import curses
 from cli.ui import MenuWindow, DictWindow, InputBar
 
 def choose_or_create_log(stdscr, campaign):
-    all_logs = [yaml.safe_load(open(f.path + "/main.yaml")) for f in os.scandir("logs") if f.is_dir() and os.path.isfile(f.path + "/main.yaml") ]
-    campaign_logs = [x for x in all_logs if x is not None and "campaign" in x and "name" in campaign and x["campaign"] == campaign["name"]]
+    all_logs = [yaml.safe_load(open(f.path + "/main.yaml", "r").read()) for f in os.scandir("logs") if f.is_dir() and os.path.isfile(f.path + "/main.yaml") ]
+    campaign_logs = [x for x in all_logs if x["campaign"] == campaign["name"]]
     campaign_logs.insert(0, {"name": "Create New Log", "new_save": True})
     
     menu_window = MenuWindow(stdscr)
@@ -45,11 +45,11 @@ def choose_or_create_log(stdscr, campaign):
                 break
         if not os.path.exists("logs/" + input_bar.get_current_input()):
             os.mkdir("logs/" + input_bar.get_current_input())
-        result = ("logs/" + input_bar.get_current_input(), open("logs/" + input_bar.get_current_input() + "/main.yaml", "w"))
-        yaml.dump({'name': input_bar.get_current_input(), 'campaign': campaign["name"]}, result[1])
+        result = "logs/" + input_bar.get_current_input()
+        yaml.dump({'name': input_bar.get_current_input(), 'campaign': campaign["name"]}, open(result + "/main.yaml", "w"))
         return result
     else:
-        result = ("logs/" + menu_window.get_selected()["name"], open("logs/" + menu_window.get_selected()["name"] + "/main.yaml", "w"))
+        result = "logs/" + menu_window.get_selected()["name"]
         return result
         
     
