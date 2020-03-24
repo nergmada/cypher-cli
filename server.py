@@ -74,7 +74,7 @@ def refresh_script():
         <script>
         setTimeout(function() {
             window.location.reload(true)
-        }, 30000);
+        }, 10000);
         </script>
     """
 

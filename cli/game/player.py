@@ -27,6 +27,10 @@ options = [
         'canonical': 'points'
     },
     {
+        'name': 'Reveal Update',
+        'canonical': 'update'
+    },
+    {
         'name': 'Go Back',
         'canonical': 'back'
     }
@@ -59,6 +63,22 @@ def change_points(stdscr, player):
     for stat, max_value in player["stats"].items():
         player["pool"][stat] = sliders.get_slider(stat).value()
 
+def push_update(stdscr, player):
+    menu_window = MenuWindow(stdscr)
+    menu_window.set_items(player["updates"]) 
+    while True:
+        stdscr.refresh()
+        menu_window.render(stdscr)
+        c = stdscr.getkey()
+        menu_window.handle_input(c)
+        if menu_window.was_enter_hit():
+            break
+        elif c == "KEY_BACKSPACE":
+            return None
+    if "live" not in player.keys():
+        player["live"] = []
+    player["live"].append(menu_window.get_selected())
+
 def player_options(stdscr, game, campaign, player, logger):
     option_menu = MenuWindow(stdscr)
     option_menu.set_items(options)
@@ -76,7 +96,11 @@ def player_options(stdscr, game, campaign, player, logger):
                 log_player_action(stdscr, player, game, logger)
             elif option_menu.get_selected()["canonical"] == "location":
                 location_menu(stdscr, game, player, logger)
+            elif option_menu.get_selected()["canonical"] == "update":
+                if "updates" in player.keys():
+                    push_update(stdscr, player)
             logger.save_player_data(player)
+
 
 def player_menu(stdscr, game, campaign, players, logger):
     player_menu = MenuWindow(stdscr)

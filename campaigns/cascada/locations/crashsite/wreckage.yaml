@@ -7,22 +7,21 @@ scale: immediate #immediate, short, long, very long
 elemental: none #small fire, large fire, electrical, radiation
 adjacent:
   - ship/lounge
+  - cliff
+  - cavern
+  - passage
 npcs: 
   - vao_zalbaar
 items:
-  - name: blanket
-    description: A standard blanket
-  - name: console
-    description: A console for interacting with various ship systems
-  - name: damaged console
-    description: A broken console, with a smashed screen, that used to allow interaction with ships systems
-  - name: religious beads
-    description: A set of religious beads from an old earth culture
+  - name: Debris
+    description: Debris from the crashed ship is scattered around the site
 assets:
-  - crash_site_1.jpg
+  - crash_site_1.png
   - plasma_bug.jpg
 description: >
   As you step off the ship and out of the anti-gravity effects of the only recently fixed gravity shield,
   you feel your weight heavier than on most other worlds. The ship is visibly on fire in many places, and the 
   auto disembark procedure for the vehicle starts a soon as the ship's VI detects that you're clear of the 
   disembarkation area. 
+  A cavern sits beneath a cliff perch that overlooks the desert, and a faint glow of irridescent fauna radiates 
+  from the mouth of it, striking even in the bright daytime sun. Past the cave, a passage out into the desert [UPCPT]
