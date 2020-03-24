@@ -4,22 +4,28 @@ setting: lounge
 lighting: dim #normal, dim, very dim
 gravity: low #normal, low, high
 scale: immediate #immediate, short, long, very long
-elemental: #small fire, large fire, electrical, radiation
-  - small fire
+elemental: small fire #small fire, large fire, electrical, radiation
 adjacent:
   - cockpit
-  - combatdeck
   - livingquarters
+  - crashsite/wreckage
 npcs:
   - ship_vi
 items:
-  - name: Locked Door
+  - name: Locked Door (Level 5)
     description: A door into the main living quarters is locked (level 3)
   - name: Emergency Locker
     description: A locker containing standard emergency supplies including rations, medical kits and additional ammunition
+  - name: Damaged bay door (Level 3)
+    description: The cargo door has been damaged in combat and needs to be opened
+assets:
+  - lounge_1.jpg
+  - car_1.jpg
 description: >
   The Citrine Eagle's lounge is a utilitarian affair, with a small ornate wooden table
-  dominating the centre of an otherwise metal plating clad room. Scattered around the 
+  painted white dominating the centre of an otherwise metal plating clad room. Scattered around the 
   room is various clutter, that - due to the lack of gravity - is free floating and
   severely reducing visibility, the larger furnishings being affixed to the floor
-  have no such issues
+  have no such issues. A bay door opens to provide a ramp, for the onloading and offloading
+  of passengers and cargo. Namely, a large 5 seater speeder vehicle. A small fire is ongoing in one of 
+  the power conduits

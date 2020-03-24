@@ -1,0 +1,24 @@
+name: The Citrine Eagle's Engine Room
+region: ship
+setting: engineroom
+lighting: dim #normal, dim, very dim
+gravity: low #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: radiation (+1 Might Damage per Round) #small fire, large fire, electrical, radiation
+adjacent:
+  - cockpit
+npcs:
+  - ship_vi
+items:
+  - name: Toolbox
+    description: A tool box lies floating in the mid air, used for starship maintenance
+  - name: Spare Parts
+    description: Spare parts, binded in an grav-crate is floating across the room
+assets:
+  - engine_room_1.jpg
+description: >
+  The Citrine Eagle's Engine room hosts a large reactor for deep space travel, a slow 
+  cargo ship engine, it's not designed to support the manouvres it has clearly had to perform
+  as a result fluid is leaking out of it into a floor drain, a visible glow of light is 
+  radiating from the fluid and the ship's VI is warning that there is dangerous levels of 
+  radiation in the room

@@ -19,6 +19,8 @@ items:
     description: A broken console, with a smashed screen, that used to allow interaction with ships systems
   - name: religious beads
     description: A set of religious beads from an old earth culture
+assets:
+  - cockpit_1.jpg
 description: >
   The Citrine Eagle's Cockpit is a cluttered mess, containing a raised chair in the left
   of the large porthole that overlooks the direction of travel, behind on the left and right

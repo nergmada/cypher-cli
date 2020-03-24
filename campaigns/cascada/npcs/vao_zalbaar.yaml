@@ -1,0 +1,16 @@
+name: 
+  - Vao Zalbaar
+identifier: vao_zalbaar
+level: 3
+health: 10
+damage: 3
+armour: 1
+known: False
+modifiers: Non corporeal nanite structure, impervious to most physical attacks
+description_visible: True
+description: >
+  Vao Zalbaar is a slender male, white, with visible sunburn from exposure to the
+  desert environment. With spiked brown hair, covered by a baseball cap, deeo blue eyes, 
+  a tan shirt and white trousers. The only technical thing about Vao is his scanpad, clearly used
+  to image and model artifacts and a knife, with a glowing blade, that provides both 
+  illumination and a means of survival in the desert

@@ -1,0 +1,14 @@
+name: 
+  - Plasma Bug Alpha
+identifier: plasma_bug_alpha
+level: 2
+health: 6
+damage: 2
+armour: 1
+known: False
+modifiers: impervious to radiation damage
+description: >
+  plasma bugs are a small creature, with a vicious acidic spit that causes damage to uncovered
+  skin, although most plasma bug spit is easily treatable, contact with hives of them can 
+  still be lethal. GM Note, Plasma bugs have a soft underbelly that can be perceived with a level 3
+  perception roll. Leveraging this can double damage

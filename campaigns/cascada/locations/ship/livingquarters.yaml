@@ -1,0 +1,22 @@
+name: The Citrine Eagle's Captain Quarters
+region: ship
+setting: livingquarters
+lighting: dim #normal, dim, very dim
+gravity: low #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - lounge
+npcs:
+  - ship_vi
+items:
+  - name: Footlocker
+    description: >
+      A foot locker hosts among it, a highly modified laser cutter, which has
+      been modified as a personal defense weapon
+assets:
+  - living_quarters_1.jpg
+description: >
+  The Citrine Eagle's Captain's Quarters are at the least, private, if a bit cramped, they
+  provide a modicum of comfort to their resident. Inside a small footlocker of personal
+  effects lies beneath the bed.

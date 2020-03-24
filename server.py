@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, send_file
 import mistune
 import os
 import yaml
@@ -7,7 +7,7 @@ from cli.logger import Logger
 
 from web.abilities import generate_ability, generate_abilities_list
 from web.player import generate_profile, generate_private_info
-from web.combatants import generate_npc_profiles
+from web.location import generate_location, generate_gallery
 
 from random import randrange
 
@@ -107,7 +107,12 @@ def get_info(logs, player):
     if player is None:
         return md_to_htm(["Player not found"])
     
-    return player_menu(logs, player["player_name"]) + page(md_to_html([generate_profile(player), generate_private_info(player), generate_npc_profiles(player, logger)])) + refresh_script()
+    result = player_menu(logs, player["player_name"])
+    result += page(
+        md_to_html([generate_profile(player), generate_private_info(player), generate_location(player, logger)]) + generate_gallery(player, logger)        
+        )
+    result += refresh_script()
+    return result
 
 #TODO: Add a team endpoint
 
@@ -138,3 +143,8 @@ def roll_d6(player):
     result = randrange(1, 7)
     print(player + " rolled a " + str(result) + " on a d6")
     return page(md_to_html(["# You rolled a " + str(result) + " on a d6"]))
+
+@app.route("/assets/<campaign>/<id>")
+def get_asset(campaign, id):
+    return send_file(f"campaigns/{campaign}/assets/{id}")
+

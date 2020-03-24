@@ -74,7 +74,7 @@ def location_menu(stdscr, game, player, logger):
         ('lighting', 'Lighting'), 
         ('gravity', 'Gravity'), 
         ('scale', 'Scale'),
-        #('elemental', 'Elemental'), - Elemental features are additive
+        ('elemental', 'Elemental'), #- Elemental features are additive
         ('description', 'Description')
         ])
     dict_window.set_item_to_render(location)

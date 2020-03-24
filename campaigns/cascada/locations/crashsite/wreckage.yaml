@@ -1,0 +1,28 @@
+name: The Citrine Eagle's Crash Site
+region: crashsite
+setting: wreckage
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - ship/lounge
+npcs: 
+  - vao_zalbaar
+items:
+  - name: blanket
+    description: A standard blanket
+  - name: console
+    description: A console for interacting with various ship systems
+  - name: damaged console
+    description: A broken console, with a smashed screen, that used to allow interaction with ships systems
+  - name: religious beads
+    description: A set of religious beads from an old earth culture
+assets:
+  - crash_site_1.jpg
+  - plasma_bug.jpg
+description: >
+  As you step off the ship and out of the anti-gravity effects of the only recently fixed gravity shield,
+  you feel your weight heavier than on most other worlds. The ship is visibly on fire in many places, and the 
+  auto disembark procedure for the vehicle starts a soon as the ship's VI detects that you're clear of the 
+  disembarkation area. 

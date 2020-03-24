@@ -1,3 +1,22 @@
+# What is a Roleplay game
+Rather than a game played with boards and rules, a roleplay game is a game wherein the players
+take on the role of imaginary characters in a fantasy world. Tasked with a mission, they must explore
+the world in order to complete their quest and in the process discover new worlds, new characters and
+untold treasures.
+
+A Game Master (GM) is responsible for refereeing and managing the game, creating the setting and the
+environment and presiding over the challenges the players face. In RPG, dice are used to determine the 
+success or failure of actions. The rule for these dice and how they determine success are described in
+the following paragraphs. 
+
+All of this has been adapted from the cypher core rule book by Monte Cook. I have attempted to condense
+the rules into a single more manageable PDF, for players to use to help get ready for the game. Throughout
+the game I will aim to help clarify any rules that are unclear, as is the expectation of any GM
+
+Thank you for joining us on this quest, and see you on the other side
+
+-Adam
+
 # Cypher Introduction
 Cypher is a Role-Playing Gaming system. Similar to D&D but designed in general for any game.
 Cypher is designed to be used for pretty much any campaign and setting you like. The core fact to
