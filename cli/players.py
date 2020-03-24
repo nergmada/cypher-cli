@@ -6,30 +6,16 @@ import curses
 import shutil
 from cli.ui import MenuWindow, DictWindow, Slider, SliderSet, SelectionWindow, InputBar
 from cli.cypher import get_type_info, collate_abilities
-from cli.markdown.player import generate_profile, generate_private_info
 
 type_info = [yaml.safe_load(open("cypher/type/" + t + ".yaml", "r")) for t in ["adept", "explorer", "speaker", "warrior"]]
 foci_info = [yaml.safe_load(open(f.path, "r")) for f in os.scandir("cypher/foci")]
 flavour_info = [yaml.safe_load(open(f.path, "r")) for f in os.scandir("cypher/flavours")]
 
 
-
-def check_for_players(log_dir):
-    result = os.path.isdir(log_dir + "/players")
-    if not result:
-        os.mkdir(log_dir + "/players")
-    for x in os.scandir(log_dir + "/players"):
-        return True
-    return False
-
-def get_players(log_dir):
-    return [yaml.safe_load(open(x.path)) for x in os.scandir(log_dir + "/players")]
-
 def get_characters(campaign_dir):
     return [yaml.safe_load(open(x.path)) for x in os.scandir(campaign_dir + "/characters")]
 
-
-def create_characters(stdscr, logs, campaign):
+def create_characters(stdscr, logger, campaign):
     characters = get_characters("campaigns/" + campaign["name"])
     selection_window = SelectionWindow(stdscr)
     selection_window.set_items(characters, "identifier")
@@ -51,11 +37,10 @@ def create_characters(stdscr, logs, campaign):
             player_name.handle_input(c)
             if c == "\n":
                 break
-        player = create_character(stdscr, logs, campaign, character)
+        player = create_character(stdscr, campaign, character)
         player["player_name"] = player_name.get_current_input()
-        yaml.safe_dump(player, open(logs + "/players/" + player["player_name"] + ".yaml", "w"))
-        players.append(player)
-    return players
+        logger.save_player_data(player)
+    return logger.get_players()
     
 
 def calculate_remaining_and_update_range(stats, sliders):
@@ -66,7 +51,7 @@ def calculate_remaining_and_update_range(stats, sliders):
         sliders.get_slider(key).set_range(value, sliders.get_slider(key).value() + remaining)
     return remaining
 
-def create_character(stdscr, logs, campaign, profile):
+def create_character(stdscr, campaign, profile):
     #Show player profile and description
     listing_order = [("identifier", "Name"), ("type", "Type"), ("focus", "Focus"), ("flavour", "Flavour"), ("descriptor", "Descriptor"), ("description", "Description")]
     dict_window = DictWindow(listing_order)
@@ -193,22 +178,15 @@ def create_character(stdscr, logs, campaign, profile):
     
     #set XP to zero
     profile["xp"] = 0
+
+    #set location to start location
+    profile["location"] = campaign["startlocation"]
+
     return profile
 
-def create_or_load_players(stdscr, logs, campaign):
-    if check_for_players(logs):
-        players = get_players(logs)
-        generate_subconscious(players)
-        return players
+def create_or_load_players(stdscr, logger, campaign):
+    if logger.has_players():
+        return logger.get_players()
     else:
-        players = create_characters(stdscr, logs, campaign)
-        generate_subconscious(players)
+        players = create_characters(stdscr, logger, campaign)
         return players
-
-def generate_subconscious(players):
-    shutil.rmtree("subconscious")
-    os.mkdir("subconscious")    
-    for player in players:
-        os.mkdir("subconscious/" + player["player_name"].lower())
-        open("subconscious/" + player["player_name"].lower() + "/shared.md", "w").write(generate_profile(player))
-        open("subconscious/" + player["player_name"].lower() + "/private.md", "w").write(generate_private_info(player))

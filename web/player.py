@@ -1,4 +1,4 @@
-from cli.markdown.abilities import generate_level_list
+from web.abilities import generate_level_list
 
 def generate_stats(stats, pool):
     result = ""
@@ -19,14 +19,14 @@ def generate_bio(t, f, d):
 def new_line(txt):
     return txt + "\n\n"
 
-def generate_profile(profile):
-    result = "# " + profile["identifier"] + " (XP: " + str(profile["xp"]) + ")"
+def generate_profile(profile, drop_header=1):
+    result = ("#" * drop_header) + " " + profile["identifier"] + " (XP: " + str(profile["xp"]) + ")"
     result = new_line(result)
     result += generate_bio(profile["type"], profile["focus"], profile["descriptor"])
     result = new_line(result)
     result += generate_stats(profile["stats"], profile["pool"])
     result = new_line(result)
-    result += generate_level_list(profile["abilities"])
+    result += generate_level_list(profile["abilities"], drop_header+1)
     return result
 
 def generate_private_info(profile):

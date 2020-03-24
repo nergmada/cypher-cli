@@ -3,7 +3,7 @@ from curses import wrapper
 
 from cli.campaign import choose_campaign
 from cli.logger import choose_or_create_log
-from cli.generate_players import create_or_load_players
+from cli.players import create_or_load_players
 from cli.ui import DictWindow, InputBar, SafeRenderScreen
 from cli.game.main import play_game
 

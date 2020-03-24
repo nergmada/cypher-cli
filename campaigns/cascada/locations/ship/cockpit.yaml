@@ -1,4 +1,6 @@
 name: The Citrine Eagle's Cockpit
+region: ship
+setting: cockpit
 lighting: dim #normal, dim, very dim
 gravity: low #normal, low, high
 scale: immediate #immediate, short, long, very long
@@ -7,14 +9,16 @@ adjacent:
   - lounge
   - engineroom
 npcs:
-  known: []
-  unknown:
-  - ship_ai
+  - ship_vi
 items:
-  - blanket
-  - console
-  - damaged console
-  - religious beads
+  - name: blanket
+    description: A standard blanket
+  - name: console
+    description: A console for interacting with various ship systems
+  - name: damaged console
+    description: A broken console, with a smashed screen, that used to allow interaction with ships systems
+  - name: religious beads
+    description: A set of religious beads from an old earth culture
 description: >
   The Citrine Eagle's Cockpit is a cluttered mess, containing a raised chair in the left
   of the large porthole that overlooks the direction of travel, behind on the left and right

@@ -183,7 +183,7 @@ class DictWindow:
         stdscr.refresh(enable_cursor)
         for i in range(0, len(self.key_id_pairs)):
             my, mx = stdscr.getmaxyx()
-            sentences = split_sentence(self.dict_item[self.key_id_pairs[i][0]], mx - 4)
+            sentences = split_sentence(str(self.dict_item[self.key_id_pairs[i][0]]), mx - 4)
             if len(sentences) == 1 and len(sentences[0]) < mx - 6 - len(self.key_id_pairs[i][1]):
                 stdscr.addstr(2 + (i * 2), 2, self.key_id_pairs[i][1] + ": " + sentences[0])
             else:
@@ -220,7 +220,7 @@ class Slider:
     pos_x = 0
     pos_y = 0
 
-    def __init__(self, x, y):
+    def __init__(self, y, x):
         self.pos_x = x
         self.pos_y = y
     
@@ -239,8 +239,8 @@ class Slider:
         renderable += "  " if self.min_value == self.current_value else "< "
         renderable += str(self.current_value)
         renderable += "  " if self.max_value == self.current_value else " >"
-        x = x if x is not None else pos_x
-        y = y if y is not None else pos_y
+        x = x if x is not None else self.pos_x
+        y = y if y is not None else self.pos_y
         if focus:
             stdscr.addstr(y, x, renderable, curses.A_REVERSE)
         else:
@@ -261,6 +261,8 @@ class SliderSet:
     def __init__(self, y, x):
         self.top_x = x
         self.top_y = y
+        self.names = []
+        self.sliders = {}
 
     def add_slider(self, name):
         slider = Slider(0, 0)
@@ -286,3 +288,35 @@ class SliderSet:
                 self.focused += 1
             else:
                 self.sliders[self.names[self.focused]].handle_input(char)
+
+class MultiDictWindow:
+    dict_items = []
+    current = 0
+    key_id_pairs = []
+    backspace_hit = False
+    def __init__(self, items):
+        self.dict_items = items
+        self.current = 0
+        self.key_id_pairs = []
+    
+    def set_listing_order(self, key_id):
+        self.key_id_pairs = key_id
+
+    def render(self, stdscr):
+        dict_window = DictWindow(self.key_id_pairs)
+        dict_window.set_item_to_render(self.dict_items[self.current])
+        dict_window.render(stdscr)
+    
+    def was_backspace_hit(self):
+        return self.backspace_hit
+
+    def handle_input(self, char):
+        self.backspace_hit = False
+        if len(char) > 1:
+            if char == "KEY_LEFT" and self.current > 0:
+                self.current -= 1
+            elif char == "KEY_RIGHT" and self.current < len(self.dict_items) - 1:
+                self.current += 1
+            elif "KEY_BACKSPACE" == char:
+                self.backspace_hit = True
+                

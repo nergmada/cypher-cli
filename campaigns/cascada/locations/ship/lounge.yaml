@@ -1,4 +1,6 @@
 name: The Citrine Eagle's Lounge
+region: ship
+setting: lounge
 lighting: dim #normal, dim, very dim
 gravity: low #normal, low, high
 scale: immediate #immediate, short, long, very long
@@ -9,20 +11,12 @@ adjacent:
   - combatdeck
   - livingquarters
 npcs:
-  - ship_ai
-majoritems:
-  - item:
-    name: Locked Door
-    actions:
-      - breakdown: 2
-      - unlock: 3
-      - others: 4
-  - item:
-    name: Emergency Locker
-    actions:
-      - open: 0
-      - lock: 0
-      - others: 4
+  - ship_vi
+items:
+  - name: Locked Door
+    description: A door into the main living quarters is locked (level 3)
+  - name: Emergency Locker
+    description: A locker containing standard emergency supplies including rations, medical kits and additional ammunition
 description: >
   The Citrine Eagle's lounge is a utilitarian affair, with a small ornate wooden table
   dominating the centre of an otherwise metal plating clad room. Scattered around the 

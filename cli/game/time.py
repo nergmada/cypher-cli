@@ -40,8 +40,6 @@ options = [
 ]
 
 def time_menu(stdscr, game, campaign):
-    if "time" not in game.keys():
-        game["time"] = campaign["time"]
     menu = MenuWindow(stdscr)
     menu.set_items(options)
     while True:
@@ -54,3 +52,4 @@ def time_menu(stdscr, game, campaign):
                 break
             else:
                 game["time"] += menu.get_selected()["delta"]
+    

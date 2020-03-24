@@ -188,3 +188,5 @@ Leveling up costs XP, to go from tier 1 to 2 (or any other tier one step up) pla
 - Moving towards perfection: (4XP) gain an additional poibt in an edge of your choice (edges reduce cost)
 - Extra Effort: (4XP) gain an additional level of effort, raising the maximum effort you can apply to task
 - Skills: (4XP) become trained in a new skill or become specialized in a skill you were previous trained in
+
+
