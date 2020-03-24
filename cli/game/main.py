@@ -13,6 +13,7 @@
 # Change Time
 # exit
 import yaml
+import os
 from cli.ui import MenuWindow
 from cli.game.time import time_menu
 from cli.game.player import player_menu
@@ -25,8 +26,44 @@ options = [
     {
         'name': 'Change Time',
         'canonical': 'time'
+    },
+    {
+        'name': 'Move All Players',
+        'canonical': 'move'
+    },
+    {
+        'name': 'Save and Exit',
+        'canonical': 'exit'
     }
 ]
+
+
+def move_all_players(stdscr, players, logger):
+    regions = [{"name" : x.name} for x in os.scandir(f"campaigns/{logger.get_campaign()}/locations")]
+    region_menu = MenuWindow(stdscr)
+    region_menu.set_items(regions)
+    while True:
+        stdscr.refresh()
+        region_menu.render(stdscr)
+        c = stdscr.getkey()
+        region_menu.handle_input(c)
+        if region_menu.was_enter_hit():
+            break
+    settings = [{"name" : x.name.split(".")[0]} for x in os.scandir(f"campaigns/{logger.get_campaign()}/locations/{region_menu.get_selected()['name']}")]
+    setting_menu = MenuWindow(stdscr)
+    setting_menu.set_items(settings)
+    while True:
+        stdscr.refresh()
+        setting_menu.render(stdscr)
+        c = stdscr.getkey()
+        setting_menu.handle_input(c)
+        if setting_menu.was_enter_hit():
+            break
+    for player in players:
+        player["location"]["region"] = region_menu.get_selected()["name"]
+        player["location"]["setting"] = setting_menu.get_selected()["name"]
+        logger.save_player_data(player)
+
 
 def save_game(game, logs):
     yaml.safe_dump(game, open(logs + "/main.yaml", "w"))
@@ -53,4 +90,11 @@ def play_game(stdscr, campaign, players, logger):
                 time_menu(stdscr, game, campaign)
             if menu.get_selected()["canonical"] == "player":
                 player_menu(stdscr, game, campaign, players, logger)
+            if menu.get_selected()["canonical"] == "move":
+                move_all_players(stdscr, players, logger)
+            if menu.get_selected()["canonical"] == "exit":
+                logger.save_game(game)
+                for player in players:
+                    logger.save_player_data(player)
+                exit(0)
             logger.save_game(game)
