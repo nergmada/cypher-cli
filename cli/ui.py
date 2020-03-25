@@ -164,8 +164,26 @@ class SelectionWindow:
             self.enter_detected = True
 
 
-def split_sentence(long_sentence, max_length):
-    return [(long_sentence[i:i+max_length]) for i in range(0, len(long_sentence), max_length)]
+def split_sentence(txt, max_length):
+    if len(txt) < max_length:
+        return [txt]
+    paragraphs = txt.split("\n")
+    sentences = []
+    for paragraph in paragraphs:
+        words = paragraph.rstrip().split(" ")
+        sentence = ""
+        for i in range(0, len(words)):
+            append_now = False
+            if len(sentence) + len(words[i]) + 1 < max_length:
+                sentence += words[i] + " "
+            else:
+                append_now = True
+            if len(words) - 1 == i or append_now:
+                sentences.append(sentence)
+                sentence = ""
+
+        sentences.append(sentence)
+    return sentences
 
 class DictWindow:
     key_id_pairs = []

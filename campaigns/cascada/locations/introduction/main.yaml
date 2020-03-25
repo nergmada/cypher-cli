@@ -1,0 +1,49 @@
+name: "Cascada: The Pursuit of Freedom"
+region: introduction
+setting: main
+lighting: dim #normal, dim, very dim
+gravity: low #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - ship/lounge
+npcs: []
+items: []
+assets:
+  - title_card.png
+description: >
+  The year is 2321 human's have spread amongst the galaxy, reaching far beyond their own
+  solar system to conquer the heavens and the stars. Though many thousands of planets have
+  been touched by human exploration, corporate expansion and wealthy autocratic wannabes no
+  sentient life on a par with that we call sapien has been found. 
+  
+  Whilst many planets host a wide array of fauna and creatures, none have life or civilisation
+  on the scale brought to it by the arrival of people. But a few planets do have the remanants of
+  civilisation, tombs, temples and entire towns, worn down by the forces of nature to be nothing more
+  than a loosely organised pile of rubble and artifacts.
+  
+  Preserved, only by the fact that famine, plague or war obliterated the inhabitants before they had a
+  chance to scavenge the remains. Of course, with them humanity also brought politics, greed, lust
+  and the other vices and sins once only contained to planet Earth. Great mega corporations rule vast
+  regions of space and hold wealth on a scale larger than all of human history combined. 
+  
+  Orrin Corp, one of many super-conglomorates is one of the largest. The Orrin Corporation is a giant 
+  interstellar conglomerate of several thousand different corporate entities, manufacturing everything 
+  from medicines, weaponry, starships and software. The Orrin Corporation operates on almost every human touched 
+  world in the galaxy. Even in places where people do not know of words such as freedom or liberty, 
+  they know the name Orrin. 
+  
+  Despite the vast expanse of space, the human race, unsatisfied with the quantity of resources, continually wages wars 
+  to control various systems perceived to be of strategic or economic value. In 2278 this led to one of the largest
+  mass genocides in human history, when the luxury agricultural planet, Canbar-Dan was bombed from orbit with fusion
+  warheads, wiping out the inhabitants (except those off-world at the time). 
+  
+  In the resulting peace treaties, the Quorum of Twelve, formed of representatives of large corporate interests, various 
+  democratic and autocratic worlds, and individuals of unimagineable wealth established itself as a peace keeping body.
+  Slowly over time, the Quorum grew to enfranchise more of the habited worlds, liberating some, and enslaving others. 
+  Canbar-Dan was rebuilt by the Quorum, largely with the resources of The Orrin Corporation and became their new central 
+  base of operations
+
+  Floating adrift in space, The Citrine Eagle and its passengers awake, confused and delirious, struggling to remember 
+  the events of the past 3 days. The ship's onboard Virtual Intelligence is repeating, through the silence of the drift, 
+  "Cascada Transmission Complete"

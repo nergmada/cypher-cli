@@ -79,14 +79,6 @@ You can lift the spirits of a group of creatures and help them bond together by 
 
 After hearing a language spoken for a few minutes, you can speak it and make yourself understood. If you continue to use the language to interact with native speakers, your skills improve rapidly, to the point where you might be mistaken for a native speaker after just a few hours of speaking the new language
 
-#### Datajack
-
-**Type**: Action
-
-**Cost**: 1 Intellect point
-
-With computer access, you jack in instantly and learn a bit more about something you can see. You get an asset on a task involving that person or object
-
 #### Demeanor of Command
 
 **Type**: Action to initiate
@@ -126,14 +118,6 @@ You reach into the mind of a creature within immediate range and make an Intelle
 **Cost**: 1 Intellect point
 
 When speaking with an intelligent creature who can understand you and isn't hostile, you convince that creature to take one reasonable action in the next round. A reasonable action must be agreed upon by the GM; it should not put the creature or its allies in obvious danger or be wildly out of character
-
-#### Hacker
-
-**Type**: Action
-
-**Cost**: 2 Intellect points
-
-You gain quick access to a desired bit of information in a computer or similar device, or you access one of its primary functions
 
 #### Inspire Aggression
 
@@ -175,14 +159,6 @@ You analyze the scene of a crime, the site of a mysterious incident, or a series
 
 You analyze the scene of a crime, the site of a mysterious incident, or a series of unexplained phenomena, and maybe learn a surprising amount of information about the perpetrators, the participants, or the force(s) responsible. To do so, you must collect samples from the scene. Samples are paint or wood scrapings, dirt, photographs of the area, hair, an entire corpse, and so on. With samples in hand, you can discover up to three pertinent pieces of information about the scene, possibly clearing up a lesser mystery and pointing the way to solving a greater one. The GM will decide what you learn and what level of difficulty is needed to learn it. (For comparison, discovering that a victim was killed not by a fall, as seems immediately obvious, but rather by electrocution, is a difficulty 3 task for you.) The task is eased if you take the time to transport the samples to a permanent lab (if you have access to one), as opposed to conducting the analysis with your field science kit
 
-#### Machine Interface
-
-**Type**: Enabler
-
-**Cost**: 2 Intellect points
-
-For one minute you gain an asset on tasks to discern the level, function, and activation of technological devices that you touch
-
 #### Practiced With Medium Weapons
 
 **Type**: Enabler
@@ -190,14 +166,6 @@ For one minute you gain an asset on tasks to discern the level, function, and ac
 **Cost**: none
 
 You can use light and medium weapons without penalty. If you wield a heavy weapon, attacks with it are hindered
-
-#### Scramble Machine
-
-**Type**: Action
-
-**Cost**: 2 Intellect points
-
-You render one machine within short range unable to function for one round. Alternatively, you can hinder any action by the machine (or by someone attempting to use the machine) for one minute
 
 #### Spin Identity
 
@@ -207,14 +175,6 @@ You render one machine within short range unable to function for one round. Alte
 
 You convince all intelligent creatures who can see, hear, and understand you that you are someone or something other than who you actually are. You don't impersonate a specific individual known to the victim. Instead, you convince the victim that you are someone they do not know belonging to a certain category of people. “We're from the government.” “I'm just a simple farmer from the next town over.” “Your commander sent me.” A disguise isn't necessary, but a good disguise will almost certainly be an asset to the roll involved. If you attempt to convince more than one creature, the Intellect cost increases by 1 point per additional victim. Fooled creatures remain so for up to an hour, unless your actions or other circumstances reveal your true identity earlier
 
-#### Tech Skills
-
-**Type**: Enabler
-
-**Cost**: none
-
-You are trained in two skills in which you are not already trained. Choose two of the following - crafting, computers, identifying, machines, piloting, repairing, or vehicle driving. You can select this ability multiple times. Each time you select it, you must choose two different skills
-
 #### Terrifying Presence
 
 **Type**: Action
@@ -222,14 +182,6 @@ You are trained in two skills in which you are not already trained. Choose two o
 **Cost**: 2+ Intellect points
 
 You convince one intelligent target of level 3 or lower that you are its worst nightmare. The target must be within short range and be able to understand you. For as long as you do nothing but speak (you can't even move), the target is paralyzed with fear, runs away, or takes some other action appropriate to the circumstances. In addition to the normal options for using Effort, you can choose to use Effort to increase the maximum level of the target. Thus, to terrorize a level 5j target (two levels above the normal limit), you must apply two levels of Effort
-
-#### Tinker
-
-**Type**: Action to initiate
-
-**Cost**: 1 Intellect point
-
-You make a device do something different from its original purpose. For example, a blaster becomes a bomb. A scanner becomes a signal booster for a radio transmitter. A music player becomes a battery for another device. The effective level of the modified device is 1 lower than normal, and the device is rendered unusable (for its original purpose) until repaired
 
 #### Understanding
 

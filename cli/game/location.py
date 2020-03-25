@@ -67,8 +67,7 @@ def change_location(stdscr, game, player, logger, current_location):
     location_menu(stdscr, game, player, logger)
 
 
-def location_menu(stdscr, game, player, logger):
-    location = logger.load_location_data(player["location"]["region"], player["location"]["setting"])
+def display_location(stdscr, location):
     dict_window = DictWindow([
         ('name', 'Name'), 
         ('lighting', 'Lighting'), 
@@ -84,6 +83,10 @@ def location_menu(stdscr, game, player, logger):
         dict_window.handle_input(c)
         if dict_window.was_enter_hit():
             break
+
+def location_menu(stdscr, game, player, logger):
+    location = logger.load_location_data(player["location"]["region"], player["location"]["setting"])
+    display_location(stdscr, location)
 
     menu = MenuWindow(stdscr)
     menu.set_items(options)

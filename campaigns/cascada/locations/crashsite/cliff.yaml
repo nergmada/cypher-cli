@@ -1,0 +1,19 @@
+name: The Cliff Top
+region: crashsite
+setting: cliff
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - wreckage
+npcs: 
+  - vao_zalbaar
+items: []
+assets:
+  - desert_scape.jpg
+description: >
+  The cliff top looks over the vast expanse of the planets seemingly infinite desert, the rock formations are 
+  striking and almost certainly heavenly to look at during the evening. This cliff offers a good position to 
+  transmit and survey the area. To the rear, a snaking canyon leading back to the crash site and then 
+  further to the desert below

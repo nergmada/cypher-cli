@@ -2,7 +2,7 @@ identifier: The Professor
 type: speaker
 focus: conducts weird science
 descriptor: mad
-flavour: technology
+flavour: none
 cyphers:
   - name: Warping Nanovirus
     description: >

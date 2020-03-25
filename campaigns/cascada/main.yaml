@@ -1,14 +1,10 @@
 name: cascada
 author: Adam Green
 description: >
-  Some basic description, this description is a fairly long and detailed description that takes up
-  several lines when it's written out in full
+  Cascada is a space opera set in a gritty universe where the follies of human collide with 
+  good conscience
 startlocation: 
-  region: ship
-  setting: lounge
+  region: introduction
+  setting: main
 time: 2321-10-15 23:50:00
 genre: sci-fi
-introduction: >
-  Late afternoon is best.
-  Backup contact is Nancy
-  Billsmer @ 338-4338.

@@ -1,0 +1,22 @@
+name: Canyon Pass
+region: crashsite
+setting: passage
+lighting: dim #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - wreckage
+  - digsite/approach
+npcs: 
+  - vao_zalbaar
+items: []
+assets:
+  - crashsite_passage.jpg
+description: >
+  The desert passage leads through a canyon, through a running stream, the speeder barely fits, but 
+  thanks to its all-terrain capabilities has little trouble negotiating the area. As you venture through 
+  you see beacons and markers thrown into the ground and mounted on the sheer face of the canyon's walls
+
+  On the walls you see etching and drawings from a long lost civilisation, the cryptic nature of the language
+  is indecipherable to any of your team.

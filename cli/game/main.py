@@ -17,6 +17,7 @@ import os
 from cli.ui import MenuWindow
 from cli.game.time import time_menu
 from cli.game.player import player_menu
+from cli.game.location import display_location
 
 options = [
     {
@@ -63,7 +64,9 @@ def move_all_players(stdscr, players, logger):
         player["location"]["region"] = region_menu.get_selected()["name"]
         player["location"]["setting"] = setting_menu.get_selected()["name"]
         logger.save_player_data(player)
-
+    
+    location = logger.load_location_data(region_menu.get_selected()["name"], setting_menu.get_selected()["name"])
+    display_location(stdscr, location)
 
 def save_game(game, logs):
     yaml.safe_dump(game, open(logs + "/main.yaml", "w"))

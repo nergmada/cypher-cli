@@ -1,0 +1,28 @@
+name: The Neirana Cavern Mouth
+region: crashsite
+setting: cavern
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - wreckage
+npcs: 
+  - vao_zalbaar
+items:
+  - name: Rocks
+    description: >
+      Various geological features are scattered around the mouth, probably disturbed by the ingress
+      and egress of various creatures
+  - name: Sana Tree
+    description: >
+      The Sana Tree is a small spindly tree with an oozing bright red sap, the sap itself has healing properties
+      for wounds and can be consumed to regain 2 points for any skill pool
+assets:
+  - cavern_1.jpg
+  - sana_tree.jpg
+description: >
+  The mouth of the cavern glows faintly in the bright desert sun, as the plants dangling from the inner ceiling
+  glow a faint glow. The mouth leads into a much larger subterranean cave network, The network appears to stretch
+  beneath the sands of the deserts for miles, and probably offers shelter to some of the more solar-sensitive 
+  creatures on this planet
