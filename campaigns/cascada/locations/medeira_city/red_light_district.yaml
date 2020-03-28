@@ -1,0 +1,22 @@
+name: The Red Light District
+region: medeira_city
+setting: red_light_district
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - approach
+  - comms_centre
+  - shipwright
+npcs: 
+  - prostitute_alpha
+  - prostitute_beta
+items: []
+assets:
+  - market.jpg
+description: >
+  Given Medeira's reputation throughout the rest of this neighbourhood of interstellar space, it's almost laughable 
+  the idea it should have a red light district. The red light district of Medeira though caters to similar tastes to 
+  other red light districts throughout the galaxy, predominantly, sex, alcohol, drugs and entertainment and any combination 
+  of those therein.  

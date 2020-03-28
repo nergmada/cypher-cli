@@ -1,0 +1,23 @@
+name: The Eclipse Tavern
+region: medeira_city
+setting: tavern
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - approach
+  - comms_centre
+  - shipwright
+npcs:
+  - connor
+  - orrin_assaulter_alpha
+  - orrin_assaulter_beta
+  - orrin_captain
+items: []
+assets:
+  - eclipse_tavern.jpg
+description: >
+  The Eclipse Tavern is one of the less popular and more depressing establishments of Medeira, and hosts a largely local 
+  crowd, including one drunken ISA agent, sat at the bar. The taverns some what desolate plant life offer a little 
+  comfort that at least something can live in this squalor. [Connor dead, it's a trap]
