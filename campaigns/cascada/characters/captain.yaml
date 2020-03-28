@@ -56,8 +56,13 @@ description: >
   Acting as a military contractor to the Quorum for any odd job they can't have their own troops conduct.  
 updates:
   - name: A familiar face
-    info: Vao Zalbaar seems familiar to you, but you can't put your finger on why, at the very least, you trust him
-
+    info: >
+      Vao Zalbaar seems familiar to you, but you can't put your finger on why, at the very least, you trust him
+  - name: This is what I was born for
+    info: >
+      As the creatures pursue you through the desert, you remember the dogfight you got in escaping from Canbar-Dan, 
+      the pursuit that landed you on Cascada, and the Citrine Eagle damaged extensively. Orrin's Hitman attempted to fend 
+      them off in the gun turret, but alas, they overwhelmed him... Except, everyone survived
 
 ##derived from descriptor and type
 #stats:

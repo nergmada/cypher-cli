@@ -1,0 +1,22 @@
+name: The Medeira City Gate
+region: medeira_city
+setting: approach
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - digsite/desert
+npcs: 
+  - medeira_guard
+items: []
+assets:
+  - desert_city.jpg
+  - city_gate.jpg
+description: >
+  The city gate of Medeira is a grand stone archway, clearly an old structure built before the arrival of colonists
+  but retrofitted with more modern comforts, the gateway is a ray shield, rather than the primitive wood blockade which 
+  once acted as the defence of the city. 
+  Outside, a city guard stands on duty watches as you enter the grand city' gate way
+  A grand avenue leads through the centre of the town up to a grand marble and gold statue, clearly not an original work, 
+  instead a tacky copy, an odious testament to the current ruler of Medeira

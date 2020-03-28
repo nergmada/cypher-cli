@@ -1,0 +1,29 @@
+name: The Digsite Excavation
+region: digsite
+setting: excavation
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: short #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - basecamp
+  - thetomb
+  - operahouse
+  - library
+npcs: 
+  - vao_zalbaar
+  - digsite_militia
+  - shanka_hari
+  - digsite_robot_alpha
+  - digsite_robot_beta
+items: []
+assets:
+  - digsite_1.jpg
+description: >
+  The digsite excavation is a confusing contrast between the hulking metal reinforcing frames that surround the canyon walls
+  and the stone artifacts and structures that lie within the mouth of the canyon. The Ancient Cascadian structures 
+  have crumbled over time but are brutal clash of technological interfaces and impressive stone architecture.
+  Two drilling robots are scurrying around over walls and drilling. A militiaman occasionally interferes with the 
+  bug like robots, helping them get unstuck by giving them a shove or a kick.
+  The stone structures of the ancient city are built into the walls, and as the robots drill it is clear that there is still
+  a lot of the city contained in the desert stone that has formed around the lost city

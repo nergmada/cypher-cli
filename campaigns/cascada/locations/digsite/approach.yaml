@@ -1,0 +1,29 @@
+name: The Digsite Approach
+region: digsite
+setting: approach
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: short #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - crashsite/passage
+  - basecamp
+npcs: 
+  - vao_zalbaar
+  - defense_turret
+items:
+  - name: Fabric Ceiling Shield
+    description: >
+      A tough red nylon fabric spans the ceiling, designed to catch falling stone and 
+      rocks from injuring the staff below 
+  - name: Clay Pots 
+    description: >
+      The clay pots contain various liquids for washing, drinking and cleaning. One or two empty ones are 
+      storing tools
+assets:
+  - digsite_approach.jpg
+description: >
+  The canyon opens to a more inhabited region, the outside of a large archaeological dig site, striking
+  red fabric bridges the walls of the canyon making the ceilings lower than the apparent rock faces. 
+  As you approach the digsite, you notice a defense turret concealed in one of the many clay pots that 
+  lie at the exterior of the entrance to the main site. 

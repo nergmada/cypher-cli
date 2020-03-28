@@ -1,0 +1,30 @@
+name: The Digsite Basecamp
+region: digsite
+setting: basecamp
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - approach
+  - excavation
+  - thetomb
+  - operahouse
+  - library
+  - desert
+npcs: 
+  - vao_zalbaar
+  - digsite_militia
+  - shanka_hari
+  - cascadan_lab_hand_alpha
+  - cascadan_lab_hand_beta
+items: []
+assets:
+  - desert_camp.jpg
+description: >
+  The base camp is a large tent erected in the desert, with a smaller barn adjacent for storing animals, vehicles
+  and supplies for the teams working here. Inside the main tent a bank of equipment mounts up on collapsible tables
+  a small field lab. A couple of robotic arms descend from the ceiling and mechanically work at two of the tables scanning
+  artifacts and then carefully subjecting them to a barrage of tests
+  A couple of Cascadan lab hands assist in the moving of larger artifacts. Outside, a local militiaman stands watch with 
+  a cheap and potentially ineffective rifle.

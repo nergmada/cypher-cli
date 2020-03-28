@@ -17,7 +17,7 @@ weapons:
       but may cause sterility after prolonged exposure
   - name: The Arc-Caster (Medium)
     description: > 
-      A popular choice of weapon for blind hunters, the Arc-Caster is a close range scatter weapon, 
+      A popular choice of weapon for blind hunters, the Arc-Caster is a close range crossbow scatter weapon, 
       designed to cover a maximal radius. Unfortunately it has a significant splash zone, due to the 
       highly piercing nature of the shrapnel it projects
   - name: Meat Cleaver (Light)
@@ -44,9 +44,15 @@ description: >
   espionage, assassination and if necessary special operations in private 
   corporate wars. 
 updates:
-  - name: placeholder
-    info: This is a place holder update for the hitman character
-
+  - name: The Twins and The Tomb
+    info: >
+      You remember standing over you allies, along side your two brothers. Sent to kill a threat to the corporation's interests 
+      as the eccentric professor looks up at you in fear you turn the rifle on your two brothers and help them flee
+  - name: Bad odds
+    info: >
+      The onslaught of fighters firing upon The Citrine Eagle was overwhelming, as you attempted to return fire, you could barely 
+      distinguish one target from another as a dozen fighters swarmed the eagle. Even with The Captain's flying the ship wouldn't 
+      have held much longer, but then suddenly the fighters begin exploding as you feel yourself lose consciousness
 
     #character references:
 #  - Phillipa Georgiou (Bad One)

@@ -1,0 +1,26 @@
+name: The Grand Library of Anutut
+region: digsite
+setting: library
+lighting: very dim #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - basecamp
+  - excavation
+  - operahouse
+npcs: 
+  - vao_zalbaar
+  - plasma_bug_alpha
+  - plasma_bug_beta
+  - orrin_assassin
+items: []
+assets:
+  - the_library.jpg
+  - library.jpg
+description: >
+  The library is grand a scattered with shattered glass, broken wood, and crumbling texts. Most
+  are illegible, years of decay and neglect and have seen their contents lost to the ether. But, deeper in
+  the library, a few lights still flicker, behind a translucent door. A thousand year bulbs with still a few 
+  years left to run. The bookshelves are high and the rooms of meandering and mostly caved in. Lots of places 
+  for creatures to hide

@@ -1,0 +1,27 @@
+name: The Memphia Opera House
+region: digsite
+setting: library
+lighting: very dim #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - basecamp
+  - excavation
+  - thetomb
+  - library
+npcs: 
+  - vao_zalbaar
+items:
+  - name: Statue of Memphia
+    description: >
+      A statue to Queen Memphia, the last Queen of Cascada, and the wife of Sultan Anutut. The statue contains a 
+      hidden compartment between the hand and the heart
+assets:
+  - memphia.jpg
+description: >
+  The Memphia Opera House is a small opera house by comparison to even those built in the ancient earth era, 
+  seating no more than a couple of hundred people. The performances would have been intimate, when this 
+  house was in use. Now the most striking note being struck is the imposing beauty who stands in the rear of the 
+  house, looking towards the stage. The statue of Memphia, stands eternal watching the performers. 
+  The statue is visibly decayed and clear lines are starting to show in the carving of it.

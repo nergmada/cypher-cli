@@ -52,8 +52,16 @@ description: >
   Trained to use your telepathic abilities in the field, you are a well respected agent, even in spite of the well known
   clumsiness and chaos that follows you wherever you go.
 updates:
-  - name: placeholder
-    info: This is a place holder update for the agent character
+  - name: If music be the food of love
+    info: >
+      Sat in a music hall on Zerra Prima, you remember looking across at the man in the hologram and feeling the overwhelming 
+      feeling of butterflies. He gets up to take a call as you continue to watch the opera play out, until you realise 
+      he's not coming back. Disappearing into the lobby he is nowhere to be seen, gone.
+  - name: Erasure
+    info: >
+      As the Orrin ships rained down fire upon the Citrine Eagle and The Hitman and The Captain tried in vain to fend of their attacks 
+      you felt an overwhelming power summoned deep within you. Anger, fear, and a protective instinct result in an overwhelming psychic blast 
+      as your whole party loses consciousness destroying your attackers in the process
 #abilities:
 #  - light weapons
 #  - four abilities from type or flavour (or both)

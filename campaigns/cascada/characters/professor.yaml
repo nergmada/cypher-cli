@@ -49,8 +49,18 @@ description: >
   Still to this day, you maintain your conviction to the fact that Werr-Heyn was wrong, and that sentient AI can exist, and
   may very well already exist.
 updates:
-  - name: placeholder
-    info: This is a place holder update for the professor character
+  - name: Archival Mercy
+    info: >
+      In the library of Orrin Corp you look for data on Orrin's research into synthetic life, as you pull up a classified file.
+      You feel the cold steel of a pistol on the back of your neck you raise slowly when a sudden spark comes. Behind you The Stowaway 
+      stands, over the incapacitated body of The Hitman. As you flee the archive, you notice him regain consciousness. With a 
+      carefully laid shot, you knock over a stack of archive data, but save him from dying at the hands of a blaster in the process
+  - name: Digital Escape Pod
+    info: >
+      As the ship comes under attack in the orbit of Cascada, you aim the Eagle's radio-telescope towards the surface of the planet
+      frantically trying to wire it into some kind of data stacks, you bite a wire with your teeth ripping it free. The stowaway is
+      unimpressed by your approach to engineering but helps nonetheless as you go to hit the button you lose consciousness and everything 
+      goes dark
 #character references:
 #  - Professor Farnsworth
 #  - Doc Brown

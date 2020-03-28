@@ -1,0 +1,51 @@
+identifier: The Stowaway
+type: fighter
+focus: fuses mind and machine
+descriptor: strong-willed
+flavour: none
+cyphers:
+  - name: The Frymaster
+    description: >
+      A small frying pan, fitted with a small EMP charge, the non-stick coating on the base as well as the shape of 
+      the pan allow for easy sliding and maximum conductance of charge for frying a variety of robotic and mechanical
+      circuitry. Does 6 damage to any target with technology components (prosthetic limbs, implants etc)
+  - name: Emergency Laser Cutter
+    description: >
+      Imagine a laser pen, now imagine it connected to an unnecessarily large power source. The emergency laser cutter is
+      an needlessly aggressive laser, useful for cutting into metal and other objects. Reduces the difficulty of complex 
+      precision cutting tasks by 2 levels
+equipment:
+  - name: Interface Implants
+    description: >
+      You possess interface implants which ease any computer based task
+weapons:
+  - name: Zeus' Harpoon (Medium)
+    description: >
+      A harpoon like device, about the size of a heavy pistol, which does damage to electronic devices as if it were a heavy
+      weapon 
+description: >
+  A street smart scavenger who grew up on Canbar-Dan during the Orrin restoration, you saw your near decimated planet rebuilt 
+  to such opulent wealth, that you went from the poverty of war to the poverty of a planet unaffordable to anyone but the 
+  incredibly wealthy.
+  
+  As a tech hunter, you cracked robots, machines, and technology, to sell on the black market, to Orrin competitors or sometimes 
+  those so poor that they have no choice but to seek the technology they need to live from a black market so prepared to take 
+  an entire person's life saving for a replacement digi-kidney.
+
+  One day, whilst cracking an Orrin base you hear gun shots from a nearby archive room. As you draw your harpoon and approach, 
+  the rest becomes a blur.
+updates:
+  - name: Archival Mercy
+    info: >
+      Approaching the archive, your harpoon drawn you spot an Orrin goon stood over another scavenger, The Professor. You shoot him
+      with the harpoon knocking him to the ground and helping The Professor up, as you flee the room The Professor fires a shot, 
+      trapping The Hitman under a data stack
+  - name: Emergency Broadcast
+    info: >
+      As you attempt to get a power cable from the engine to the main lounge, the professor wires up a radio telescope for transmission
+      the professor is clearly intelligent, but has no regard for quality craftmanship. Still, as The Citrine Eagle comes under fire, you 
+      help send this broadcast. But who you're transmitting to is still not clear.
+#character references:
+#  - Professor Farnsworth
+#  - Doc Brown
+#  - Pretty much any tech guy from any sci fi series ever

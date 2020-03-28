@@ -1,0 +1,26 @@
+name: The Tomb of Anutut
+region: digsite
+setting: thetomb
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - basecamp
+  - excavation
+  - operahouse
+npcs: 
+  - vao_zalbaar
+  - orrin_assaulter_alpha
+  - orrin_assaulter_beta
+  - orrin_captain
+items:
+  - name: sarcophagus
+    description: >
+      A single sarcophagus to Sultan Anutut, at the heart is a small red glowing crystal
+assets:
+  - tomb.jpg
+description: >
+  The Tomb of Anutut seal breaks to reveal a single high roofed chamber, with a sarcophagus in the middle
+  across the walls, the art of two girls, wandering and journeying across the many wildernesses of Cascada.
+  

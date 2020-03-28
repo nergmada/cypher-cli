@@ -1,0 +1,27 @@
+name: The Abcessed Desert
+region: digsite
+setting: desert
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: country #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - basecamp
+  - medeira_city/approach
+npcs: 
+  - the_scrab
+  - orrin_tank
+items: []
+assets:
+  - oasis.jpg
+  - desert_scape.jpg
+  - desert.jpg
+  - the_scrab.png
+  - tank.jpg
+description: >
+  The desert is vast, spreading in every direction as you hit the gas towards Medeira City, 
+  you see a tank with the Orrin logo emblazoned on its hull, as it crosses the horizon and begins firing 
+  shots, you flee in the direction of Medeira when out of the earth emerges a vast worm like creature 
+  with a thousand teeth, pursuing both your pursuer and you.
+  Chase Rules - Player rules for each level of pursuer, they're trying to escape, uneased. And then applies
+  ease to the target number calculation

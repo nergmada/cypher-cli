@@ -1,0 +1,20 @@
+name: The Inner Chamber of Anutut's Library
+region: digsite
+setting: innerlibrary
+lighting: dim #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - library
+npcs: 
+  - vao_zalbaar
+items: []
+assets:
+  - inner_library.jpg
+description: >
+  The inner room is as ancient as the rest of the library, but better used. Scribbled on paper, everywhere,
+  like the ravings of a madman. Two symbols, a tree, and what looks like a fountain. The same symbols have been
+  carved into the floor, roughly, with a sharp implement, maybe a knife. Atop the second floor balcony there is
+  a telescope, with a receiver attached. Ancient and broken, but pointing upwards through the window to a sky that
+  is no longer visible due to the rocks.

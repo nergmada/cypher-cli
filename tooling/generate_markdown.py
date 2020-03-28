@@ -7,8 +7,9 @@ import yaml
 #abilities = ["Improved Recovery","Push on Through","Bash","Combat Prowess","Control the Field","Improved Edge","No Need for Weapons","Overwatch","Physical Skills","Practiced in Armor","Quick Throw","Swipe","Trained Without Armor"]
 
 
-abilities = ["Anecdote", "Babel", "Demeanor of Command", "Encouragement", "Enthrall", "Erase Memories", "Fast Talk", "Inspire Aggression", "Interaction Skills", "Practiced With Medium Weapons", "Spin Identity", "Terrifying Presence", "Understanding", "Lab Analysis", "Knowledge Skills", "Datajack", "Hacker", "Machine Interface", "Scramble Machine", "Tech Skills", "Tinker"]
+#abilities = ["Anecdote", "Babel", "Demeanor of Command", "Encouragement", "Enthrall", "Erase Memories", "Fast Talk", "Inspire Aggression", "Interaction Skills", "Practiced With Medium Weapons", "Spin Identity", "Terrifying Presence", "Understanding", "Lab Analysis", "Knowledge Skills", "Datajack", "Hacker", "Machine Interface", "Scramble Machine", "Tech Skills", "Tinker"]
 
+abilities = ["Enhanced Intellect", "Knowledge Skills"]
 
 output = "### Abilities"
 for a in yaml.safe_load(open("cypher/abilities.yaml")): 
