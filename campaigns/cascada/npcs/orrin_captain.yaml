@@ -1,0 +1,18 @@
+name: 
+  - Carl Lowery
+  - Endar Sloane
+  - Cecilia Smith
+identifier: orrin_assaulter_beta
+level: 6
+health: 18
+damage: 5
+armour: 1
+known: False
+description_visible: True
+modifiers: Armour has increased resistance to melee attacks
+description: >
+  The Orrin Captain has a helmet on that shows their eyes, an unusual design for senior officers, but
+  one that shows the battle-hardened training that even private corporate militaries receive.  
+  wearing visible yellow Orrin Armour, with Orrin logos on the chest, and a yellow cape drapped around their
+  shoulders. The Captain wields some kind of nasty lance, with a sickle like end blade used for collar
+  targets before carving them with a smaller second blade on the hip

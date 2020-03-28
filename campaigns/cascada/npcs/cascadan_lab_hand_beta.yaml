@@ -1,0 +1,14 @@
+name: 
+  - Isaac Haslow
+identifier: casacadan_lab_hand_beta
+level: 2
+health: 4
+damage: 1
+armour: 0
+known: True
+description_visible: True
+modifiers: none
+description: >
+  The cascadan lab hand is an white man, 5'9, with grey hair and green eyes, wearing a lab coat 
+  and shorts. He's fairly clean and looks as though he spends most of his time working in 
+  the lab given his lack of burns

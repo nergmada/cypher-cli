@@ -1,0 +1,14 @@
+name: 
+  - Alexi Mihail
+identifier: alexi_mihail
+level: 5
+health: 15
+damage: 5
+armour: 1
+known: False
+description_visible: True
+modifiers: +1 Armor modifier for melee attacks due to dodge
+description: >
+  Alexi Mihail is a black, dark figure, wearing a long trenchcoat, and suit. In his left
+  hand he holds a heavy pistol. His dark facial features are broken up only by the white of 
+  his teeth as a sinister grin crosses his face. One of a vicious ruthless killer

@@ -1,0 +1,18 @@
+name: 
+  - Sal Dobee
+  - Aryi Shana 
+  - Chandi Shakra-ri
+  - Coleen Tobi
+  - Alyx Freeman
+identifier: medeira_guard_alpha
+level: 2
+health: 6
+damage: 1
+armour: 0
+known: True
+description_visible: True
+modifiers: none
+description: >
+  The Medeiran guard is wearing a flak jacket and cargo pants as a standard uniform with
+  some kind of medallion or crest around their neck as a kind of pendant. Armed with 
+  either a electro-baton or occasionally a needler pistol.

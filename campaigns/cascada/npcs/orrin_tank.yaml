@@ -1,0 +1,14 @@
+name: 
+  - Orrin Tank
+identifier: orrin_tank
+level: 7
+health: 21
+damage: 6
+armour: 3
+known: True
+description_visible: True
+modifiers: none
+description: >
+  The Orrin tank is a yellow and black heavily armoured vehicle, with cannons mounted on 
+  the top and side. An in house design by Orrin with military hardware and armaments that 
+  are similar to those supplied by Orrin to militaries throughout the galaxy

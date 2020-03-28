@@ -1,0 +1,13 @@
+name: 
+  - Jana Preed
+identifier: bandit_alpha
+level: 2
+health: 4
+damage: 2
+armour: 0
+known: False
+description_visible: True
+modifiers: none
+description: >
+  A bandit thug, sporting only a tank top and cargo pants. They seem to have some homemade firearm
+  its as likely to explode in their hand as it is to harm you, still, stupid could be deadly

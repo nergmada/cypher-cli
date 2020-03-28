@@ -1,0 +1,12 @@
+name: 
+  - Acklay Service Bot
+identifier: acklay_robot
+level: 5
+health: 15
+damage: 2
+armour: 0
+known: True
+modifiers: Not susceptible to persuasion
+description_visible: True
+description: >
+  A simple service droid for Acklay Communications. It has about as much personality and a door handle

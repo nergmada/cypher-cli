@@ -1,0 +1,15 @@
+name: 
+  - Medeiran Tank
+identifier: medeira_tank_beta
+level: 7
+health: 21
+damage: 6
+armour: 3
+known: True
+description_visible: True
+modifiers: none
+description: >
+  The Medeiran tank is a grey and silver heavily armoured vehicle, with cannons mounted on 
+  the top and side. Clearly designed for voyages into the desert to meet less than savoury
+  characters, the tank is well maintained even though use is starting show on its tires.
+  This one seems to have some black scoring marks from a firefight on its left side.

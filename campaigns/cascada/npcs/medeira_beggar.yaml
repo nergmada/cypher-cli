@@ -1,0 +1,14 @@
+name: 
+  - Alice Dubrean
+identifier: medeira_beggar
+level: 1
+health: 2
+damage: 0
+armour: 0
+known: True
+description_visible: True
+modifiers: none
+description: >
+  The beggar is a short woman, 5'1, visibly malnourished, wearing a torn grey dress. Her
+  mix of basic English and some form of Cascadan dialect make her nearly impossible to understand
+  to non-locals

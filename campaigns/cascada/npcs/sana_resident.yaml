@@ -1,0 +1,13 @@
+name: 
+  - Wind of The Night
+identifier: sana_resident
+level: 1
+health: 3
+damage: 1
+armour: 0
+known: True
+description_visible: True
+modifiers: none
+description: >
+  The Sana resident is lying tied up, in warm winter clothing fashioned from a mix of hides 
+  and some kind of fabric derived of the local vegatation. They look warm if uncomfortable.

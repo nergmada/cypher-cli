@@ -1,0 +1,13 @@
+name: 
+  - Ophelia Sharn
+identifier: prostitute_alpha
+level: 1
+health: 3
+damage: 1
+armour: 0
+known: True
+description_visible: True
+modifiers: none
+description: >
+  The scantily clad prostitute stands on the corner of the red light district, using a 
+  mixture of basic English and Cascadan to entice patrons back to her brothel

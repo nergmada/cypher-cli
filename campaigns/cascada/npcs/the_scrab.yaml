@@ -1,0 +1,15 @@
+name: 
+  - The Scrab
+identifier: the_scrab
+level: 10
+health: 30
+damage: 10
+armour: 10
+known: True
+description_visible: True
+modifiers: none
+description: >
+  The Scrab is a species of gigantic insectoid, that burrows under the Abcessed Desert, making
+  their home in one of the most inhospitable deserts in the known galaxy. Their acidic spit
+  causes instant death just from the noxious gasses that seep off it. But if that doesn't get you
+  the vicious 1000 teeth mouth will

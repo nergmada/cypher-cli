@@ -11,6 +11,7 @@ adjacent:
 npcs: 
   - casa
   - cada
+  - orrin_assassin
 items: []
 assets:
   - shrine.jpg

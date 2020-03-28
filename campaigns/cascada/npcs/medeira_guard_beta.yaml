@@ -1,0 +1,18 @@
+name: 
+  - Andi Roseli
+  - Fillip Swee
+  - Calrissi Ann
+  - Findo Marci
+  - Sima Kleiner
+identifier: medeira_guard_beta
+level: 3
+health: 9
+damage: 1
+armour: 0
+known: True
+description_visible: True
+modifiers: none
+description: >
+  The Medeiran guard is wearing a flak jacket and cargo pants as a standard uniform with
+  some kind of medallion or crest around their neck as a kind of pendant. Armed with 
+  a light rifle, for short range encounters.

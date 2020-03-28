@@ -1,0 +1,15 @@
+name: 
+  - Digsite Robot
+identifier: digsite_robot_beta
+level: 1
+health: 2
+damage: 1
+armour: 0
+known: True
+description_visible: True
+modifiers: none
+description: >
+  The beetle like robot scurries about the digsite, with two laser cutter antennae which it uses 
+  to carefully carve out small chunks of rock unveiling the complex labyrinthean city that lies 
+  beneath the surface. Occasionally, the old robots get stuck and one of the militia have to give 
+  them a kick to free them.

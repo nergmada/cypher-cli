@@ -1,0 +1,17 @@
+name: 
+  - Carla Daniels
+  - William Sonnara
+  - James Olmos
+identifier: orrin_assaulter_alpha
+level: 4
+health: 12
+damage: 4
+armour: 1
+known: False
+description_visible: True
+modifiers: none
+description: >
+  The Armoured Assault trooper is clearly much more dangerous than the local militia, 
+  wearing visible yellow Orrin Armour, with Orrin logos on the chest, and a red glow being emitted
+  from each eye hole of the troops mask. Their rifle, a laser sighted long rifle designed to hit
+  targets even at long distances is another piece of nasty Orrin military ware.

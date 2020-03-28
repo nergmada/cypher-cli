@@ -1,0 +1,14 @@
+name: 
+  - Alexi Mihail's Ship
+identifier: alexi_ship
+level: 10
+health: 30
+damage: 10
+armour: 10
+known: True
+description_visible: True
+modifiers: impervious to all hand held weapons
+description: >
+  The sporty little attack craft doesn't seem to be equiped with weaponry at the moment, perhaps a 
+  criteria of entry to the airspace of the heavily fortified Medeira. It is though sufficiently fast 
+  enough to beat you to your mutual destination.

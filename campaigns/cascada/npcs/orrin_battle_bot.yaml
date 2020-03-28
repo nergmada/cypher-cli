@@ -1,0 +1,14 @@
+name: 
+  - Orrin Drop Bot
+identifier: orrin_battle_bot
+level: 5
+health: 15
+damage: 4
+armour: 1
+known: False
+description_visible: True
+modifiers: none
+description: >
+  The spider legged robot has a single cannon mounted at the centre of its legs that allow it flexible
+  movement. The grey and black robot, painted with the same yellow colours as its allies moves spritely 
+  for what is a heavy and imposing piece of battle hardware.

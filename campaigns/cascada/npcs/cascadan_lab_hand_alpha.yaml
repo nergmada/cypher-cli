@@ -1,0 +1,13 @@
+name: 
+  - Anode Chanse
+identifier: casacadan_lab_hand_alpha
+level: 2
+health: 3
+damage: 1
+armour: 0
+known: True
+description_visible: True
+modifiers: none
+description: >
+  The cascadan lab hand is an asian woman, 5'3, with brown hair and brown eyes, wearing a lab coat 
+  and tough padded trousers. She is visibly dirty from working on the digsite for a while.

@@ -1,0 +1,15 @@
+name: 
+  - Salli Dureen
+identifier: medeira_guard
+level: 6
+health: 18
+damage: 5
+armour: 2
+known: True
+description_visible: True
+modifiers: none
+description: >
+  The Medeiran guard is wearing a flak jacket and cargo pants as a standard uniform with
+  some kind of medallion or crest around their neck as a kind of pendant. They have a helmet
+  with the red colour of the Medeiran flags. On their shoulder is drapped a long red cape 
+  emblazoned with Medeira's crest. They bare some kind of electro-staff polearm

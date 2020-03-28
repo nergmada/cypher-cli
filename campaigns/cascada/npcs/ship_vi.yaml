@@ -6,8 +6,8 @@ health: 30
 damage: 8
 armour: 5
 known: True
-modifiers_visible: True
 modifiers: impervious to all small and medium weapon damage
+modifiers_visible: True
 description_visible: True
 description: >
   The Citrine Eagle's on board Virtual Intelligence is a simple virtual assistant

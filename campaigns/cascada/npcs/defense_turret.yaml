@@ -1,0 +1,14 @@
+name: 
+  - Digsite Defense Turret
+identifier: defense_turret
+level: 4
+health: 12
+damage: 3
+armour: 0
+known: True
+description_visible: True
+modifiers: none
+description: >
+  The antique defense turret seems like it would have been top of the line at one point. It's 
+  now been sadly relegated to defending a small digsite in a remote desert region from food stealing
+  local wildlife

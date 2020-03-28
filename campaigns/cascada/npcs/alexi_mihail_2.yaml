@@ -1,0 +1,14 @@
+name: 
+  - Alexi Mihail
+identifier: alexi_mihail_2
+level: 7
+health: 21
+damage: 7
+armour: 2
+known: True
+description_visible: True
+modifiers: +1 Armor modifier for melee attacks due to dodge
+description: >
+  Alexi Mihail is a black, dark figure, sporting a reflexive armour plating. Clearly switched since
+  your last encounter, in his left hand he bares a long sword, with a sharp ray of light along it 
+  plasma emitters that make each cut more painful that just the simple wounds they create.

@@ -1,0 +1,16 @@
+name: 
+  - Isa Briones
+  - Charles Dia
+identifier: orrin_assasin
+level: 4
+health: 12
+damage: 6
+armour: 1
+known: False
+description_visible: True
+modifiers: +1 Armor from quick movement around firearms
+description: >
+  The Assassin is wearing black form fitting body armour, with a single bright red eye, across the centre of
+  their helmet and mask. They have a black sword, which hums quietly in its sheath, charged to destroy even 
+  mechanical enemies. On their hip they have two pistols, loaded with vicious exploding shells designed to 
+  rip your insides to shreds

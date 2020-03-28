@@ -1,0 +1,17 @@
+name: 
+  - Pendo Cheen
+  - Pala Groa
+  - Wensi Dirk
+  - Sensa Cand
+identifier: medeira_guard_delta
+level: 5
+health: 15
+damage: 3
+armour: 1
+known: True
+description_visible: True
+modifiers: none
+description: >
+  The Medeiran guard is wearing a flak jacket and cargo pants as a standard uniform with
+  some kind of medallion or crest around their neck as a kind of pendant. They have a helmet
+  with the red colour of the Medeiran flags. Armed with a arm cannon.

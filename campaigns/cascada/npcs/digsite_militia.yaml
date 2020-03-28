@@ -1,0 +1,17 @@
+name: 
+  - Alanni Tom
+  - Cara Bingi
+  - Robero Frigg
+  - Nack Duray
+identifier: digsite_militia.yaml
+level: 3
+health: 9
+damage: 2
+armour: 0
+known: True
+description_visible: True
+modifiers: none
+description: >
+  The digsite militia look to be bearing old and possibly broken armaments, with helmets that 
+  cover their face. Whilst the armour they bare probably won't protect them from weapons, it's 
+  probably fairly effective against the harsh rays of the sun.

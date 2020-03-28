@@ -1,0 +1,14 @@
+name: 
+  - Emmalea Lantanea
+identifier: doctor_lantanea
+level: 4
+health: 12
+damage: 2
+armour: 0
+known: True
+description_visible: True
+modifiers: none
+description: >
+  Doctor Lantanea wields a datapad like a weapon as she strolls between patients beds
+  wearing a long white lab coat, over scrubs, she berates a robotic arm that is making sample 
+  treatments for one of her patients and immediately sets the tone of the room

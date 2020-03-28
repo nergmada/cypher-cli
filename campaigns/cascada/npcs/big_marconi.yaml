@@ -1,0 +1,15 @@
+name: 
+  - Big Marconi
+identifier: big_marconi
+level: 5
+health: 15
+damage: 2
+armour: 0
+known: True
+description_visible: True
+modifiers: none
+description: >
+  Big Marconi is a dwarf of a meagre 4ft something. His clean shaven face, has big blue eyes
+  screwed into it and a dirty grin of teeth that have had more than their fair share of run-ins 
+  with hard surfaces. Still Marconi seems harmless, and sincere, if a bit chiselled and cynical.
+  He has a tick rubbing his bald head when he's hiding something

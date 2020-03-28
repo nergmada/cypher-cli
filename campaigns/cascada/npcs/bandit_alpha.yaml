@@ -1,0 +1,13 @@
+name: 
+  - Tenor Preed
+identifier: bandit_alpha
+level: 2
+health: 4
+damage: 2
+armour: 0
+known: False
+description_visible: True
+modifiers: none
+description: >
+  A bandit thug, sporting only a t-shirt and what seems to be some kind of glass attached to 
+  a stick. Hardly a threat to you, but definitely a nuisance
