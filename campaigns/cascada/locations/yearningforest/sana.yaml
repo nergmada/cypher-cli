@@ -6,15 +6,20 @@ gravity: high #normal, low, high
 scale: country #immediate, short, long, very long
 elemental: none #small fire, large fire, electrical, radiation
 adjacent:
-  - medeira_city/approach
+  - centre
   - firebreak
 npcs: 
-  - alexi_ship
+  - orrin_assaulter_alpha
+  - orrin_assaulter_beta
+  - sana_resident
 items: []
 assets:
-  - forest_firebreak.jpg
+  - tree.jpg
 description: >
-  The firebreak stretches the length of the the forest, nearly 2000 miles. The earth has been salted by the previous 
-  occupants of Cascada in such a way that nothing will grow along this strip of land for a thousand years. It was only 
-  when humans first landed on Cascada that they decided a road would be a suitable addition to this stretch of land.
-  The mountain range in the distance hosts the most northern town of Cascada, Sana township.
+  Sana Township is scattered amongst a thousand branches of the mother Sana Tree. As you speed towards the base of the goliath
+  fauna, you notice a small guard of Orrin troops, awaiting the arrival of interlopers. A sana resident lies tied up at 
+  the base. Clearly Orrin has no intention of interference.
+
+  A climb lies ahead for our explorers to reach the town as the rope lifts are cut by alerted troops
+  
+  All Sana Tree roots on Cascada connect to this single mother tree, they are like a nerve centre for the entire planet.

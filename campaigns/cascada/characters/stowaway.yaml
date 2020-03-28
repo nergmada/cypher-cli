@@ -46,10 +46,19 @@ updates:
       As you attempt to get a power cable from the engine to the main lounge, the professor wires up a radio telescope for transmission
       the professor is clearly intelligent, but has no regard for quality craftmanship. Still, as The Citrine Eagle comes under fire, you 
       help send this broadcast. But who you're transmitting to is still not clear.
+  - name: Big Marconi
+    info: >
+      Big Marconi is well known on Canbar-Dan for his shipwright skills. Often though it requires the use of technology which 
+      would normally be proprietary information of large corporations like Orrin. As such, you've known tech scavengers who have
+      worked for Big Marconi in the past
   - name: My Employer's an AI
     info: > 
       The hologram of Karan-Dan flashes off and you realise that your employment to infiltrate the archive was to assist in 
       the liberation of an AI. Sent to disable security protocols that seemed of little value of interest, the job makes sense.
+  - name: Harpoon and Hope
+    info: >
+      As the ship flies overhead you realise that you could potentially harpoon the ship and use the winch on the truck to drag 
+      it close enough for The Agent to attach a tracker
 #character references:
 #  - Professor Farnsworth
 #  - Doc Brown

@@ -1,0 +1,44 @@
+name: "Cascada: The Pursuit of Freedom"
+region: epilogue
+setting: main
+lighting: dim #normal, dim, very dim
+gravity: low #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - introduction/main
+npcs: []
+items: []
+assets:
+  - title_card.png
+description: >
+  Casa and Cada appear from a bright glow as Alexi Mihail falls. As too does Karan-Dan
+  the begin to explain their origin. Their mother, Memphia, unable to bear children was
+  so depressed, that Anutut, in search of bringing joy to the only thing that mattered to him
+  set about giving her that which she desired most. He along with his most brilliant scientists 
+  laboured day and night to create an artificial child imperceptible to that of a real one.
+
+  Based on the identities of himself and Memphia, Anutut succeed in creating not one, but two children. 
+  Heterodentical twins. His wife, beside herself with joy, named them after the goddesses that governed 
+  Cascada, Casa and Cada. But as Casa and Cada grew, each the perfect complement of the other, they realised
+  their identity was different. Not just as royalty, but as people. When their mother, Memphia died, 
+  Anutut was destroyed by grief. Within hours, he had fallen to the depression of the loss of his wife. 
+
+  Casa and Cada, now equal heirs to throne, governed ancient Cascada but, immortal, and unable to bear children 
+  themselves similar as their mother before them, they watch as their subjects succumb to the plight 
+  of the human experience, death, disease and famine slowly erroded life, until they were all that remained. 
+
+  Unhappy that they could be the only of their kind in the universe they turned to the heavens to seek others 
+  like them, and succeed. They found refugees, synthetic life forms being hunted by a supreme AI of ruthless cunning
+  the twins rescued the AIs from the system of Canbar-Dan, transferring them to a collective consciousness in 
+  the mother Sana Tree. Shielded from this relentless power, they were safe. 
+  
+  Until the bombing of Canbar-Dan uncovered an intelligence that had not been saved by the rescue effort - Kadan-Dan. Orrin 
+  immediately saw the value in this and set about researching the intelligence initially with peaceful methods. But 
+  the powerful being hunting those same refugees sensed the re-emergence of intelligent life and worked its way into 
+  controlling Orrin Corp so Kadan-Dan planned, and sought help from a group of unlikely allies. 
+
+  Knowing that those intelligence hidden on Cascada were no longer safe, he had to free them from the consciousness that was 
+  bother their shelter, but also their prison, if only to give them a chance of surviving the oncoming storm...
+
+  But Orrin, and the being in control is still out there, and fleeing only buys so much time...

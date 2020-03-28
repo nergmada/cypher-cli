@@ -1,0 +1,23 @@
+name: The Shrine of Cascada
+region: yearningforest
+setting: shrine
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: country #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - centre
+  - selmura
+npcs: 
+  - casa
+  - cada
+items: []
+assets:
+  - shrine.jpg
+description: >
+  The shrine is an unusual juxtaposition to its exterior. The tree has been carved out to give a much more square feel
+  to this inner shelter. Still the roots of the trees visibly grow around the room and break the otherwise perfect edges.
+  The other contrast is the bodies of Orrin troops of the floor, scorched with electrical and plasma burns unlike anything 
+  else. 
+  At the centre of the room sits two women, legs folded, in monk robes. Behind them, a previous complete shrine gives way 
+  to a hidden door, it which has been affixed a glowing red crystal

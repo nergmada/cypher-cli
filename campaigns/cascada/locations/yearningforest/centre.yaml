@@ -1,0 +1,23 @@
+name: Sana Centre
+region: yearningforest
+setting: centre
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: country #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - sana
+  - shrine
+npcs: 
+  - orrin_assaulter_alpha
+  - orrin_assaulter_beta
+  - orrin_captain
+  - orrin_battle_bot
+items: []
+assets:
+  - tree_city.jpg
+description: >
+  Sana Town centre has been conquered by an imposing force of Orrin troops, residents cower in their houses as 
+  corpses scatter over the town. Surrounding the central trunk of the vast network, the vicious looking combatants 
+  are imposing are look merciless. Beyond them lies an ancient shrine, carved into the tree centuries ago and renovated 
+  by the new religious order.

@@ -67,13 +67,17 @@ updates:
     info: >
       You recognise Medeira instantly. The disgusting smell of rotten insect meats, being cooked beyond recognition. The 
       dirty and grime of a city ruled by a organised crime despot, who's only rule is not to piss her off. Fortunately, Medeira
-      quite likes you. Medeira will have the necessary people to help repair the Eagle, and with a Pilot's Guild Outpost 
-      on the planet, your insurance should cover it.
+      herself quite likes you. Medeira City will have the necessary people to help repair the Eagle, and with a Pilot's Guild 
+      Outpost on the planet, your insurance should cover it.
       You have local information and can use your local insight to your advantage as you explore and seek out you and your 
       parties needs. 
+  - name: Medeira, old Medeira
+    info: >
+      Medeira and you have a complicated relationship but one predominantly built on a mixture of mutual self-interest and 
+      mutual respect. Medeira likes anyone who's good at their job, especially when it benefits her, and you're the best. 
   - name: That Snake tricked me
     info: >
-      As Karan-Dan's hologram evapourates, you realise he sent you to pick up the professor and the agent. He set in motion 
+      As Karan-Dan's hologram evaporates, you realise he sent you to pick up the professor and the agent. He set in motion 
       the chain of events that led to you being here. An alliance of false pretenses. But do you regret it...?
 ##derived from descriptor and type
 #stats:

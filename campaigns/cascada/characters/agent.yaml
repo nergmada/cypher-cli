@@ -70,8 +70,13 @@ updates:
   - name: In the name of love
     info: >
       As Karan Dan's projection appears in the throne room before you and your companions, you remember his face. The man you'd 
-      grown to love over 10 years, who disappeared in a blink of an eye, only to re-emerge a year later, a prisoner Orrin Corp. 
+      grown to love over 5 years, who disappeared in a blink of an eye, only to re-emerge a year later, a prisoner Orrin Corp. 
       You mounted a rescue mission to Canbar-Dan to liberate him, but, you got more than you bargained for
+  - name: My heart, My mind, My soul
+    info: >
+      Emblazoned on the floor of the shrine, a large carved symbol that you instantly recognise. One that corresponds to a 
+      that carved into the gemstone on a necklace that Karan-Dan gave you before he disappeared. You look down to see the 
+      crystal glow within the necklace
 #abilities:
 #  - light weapons
 #  - four abilities from type or flavour (or both)

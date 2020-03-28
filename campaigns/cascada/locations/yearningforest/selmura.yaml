@@ -1,0 +1,24 @@
+name: The Selmu-Ra
+region: yearningforest
+setting: selmura
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: country #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - shrine
+  - epilogue/main
+npcs: 
+  - casa
+  - cada
+  - karan_dan
+  - alexi_mihail_2
+items: []
+assets:
+  - fountain.jpg
+description: >
+  The Fountain sits above the tree canopy, in the atmosphere shrouded in a cloud that makes it near invisible from
+  space. Crashed into the surface, Alexi Mihail's ship, brought down by an apparent forcefield around the fountain 
+  scattered around the decay and bones of other ships that have fallen prey to the fountain's same shield, trapped 
+  and beyond rescue, they succumb to the wilderness of the upper atmosphere. 
+  Alexi Mihail stands between you and the fountain. 
