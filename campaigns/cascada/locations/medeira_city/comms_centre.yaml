@@ -1,0 +1,19 @@
+name: Acklay Communications
+region: medeira_city
+setting: comms_centre
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - market_centre.yaml
+npcs: 
+  - acklay_robot
+items: []
+assets:
+  - acklay.jpg
+description: >
+  Acklay Communications is a small market stall staffed by a single robot. The table has a list of transmission 
+  distances and prices, confusingly printed and stuck to it. Acklay Communications have a reputation for listening 
+  to broadcasts they're not supposed to, whether they're by their own clients or the clients of other off-world transmission
+  companies

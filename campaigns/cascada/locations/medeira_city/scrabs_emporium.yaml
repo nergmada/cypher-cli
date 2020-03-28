@@ -1,0 +1,20 @@
+name: The Scrab's Emporium
+region: medeira_city
+setting: scrabs_emporium
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - slums
+npcs: 
+  - skolar
+  - sholar
+items: []
+assets:
+  - scrabs_emporium.jpg
+description: >
+  The Tech Scavenger's Emporium is full of as much self evident garbage as it is valuable items. Skolar and Sholar 
+  to brothers stand behind the counter of the store and look at you, their new clientele. "I am Sholar", "I am Skolar", "We
+  are the finest technological emporium on cascada" they say in unison with a sleeze that even a second hand ship dealer 
+  could not conjure.

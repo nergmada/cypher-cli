@@ -1,0 +1,24 @@
+name: Medeira Trader's District
+region: medeira_city
+setting: market_centre
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - approach
+  - comms_centre
+  - shipwright
+npcs: 
+  - medeira_guard_alpha
+  - medeira_guard_beta
+items: []
+assets:
+  - market.jpg
+description: >
+  The Medeira Trader's District has so many market stalls it's almost impossible to comprehend what couldn't be 
+  purchased here. The heavier guard presence makes it clear that everyone here is a full and paid up member of 
+  Medeira's protection racket. Whilst stores sell all sorts of items for the weary traveller, only a few are 
+  reputable enough to take Quorum Qubes.
+  Big Marconi's Shipwrights & Vehicle Repair sits at the centre of the market centre, with a landing pad mounted 
+  on the roof. Acklay' Transmissions sat next to it, shares an antenna coming off the main pad structure. 

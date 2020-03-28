@@ -1,0 +1,17 @@
+name: Scientific Institute Field Lab
+region: medeira_city
+setting: field_lab
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - slums
+npcs: 
+  - doctor_lantanea
+items: []
+assets: []
+description: >
+  The field lab is littered with cots, with peasants and beggars from the streets of Medeira occupying many of 
+  them. The lab has equipment for both medicinal and testing purposes scattered around the edge of the tent. A sole doctor 
+  monitors each patient and takes samples, with the assistance of a mute local helper.

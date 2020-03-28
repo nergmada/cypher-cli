@@ -1,0 +1,19 @@
+name: Big Marconi's Shipwrights & Vehicle Repair
+region: medeira_city
+setting: shipwright
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - market_centre.yaml
+npcs: 
+  - big_marconi
+items: []
+assets:
+  - shipwright.jpg
+description: >
+  Big Marconi's is a relatively compact mixture of storage facilities, hanger bays and a single large launch pad for some 
+  kind of recovery ship. As you enter into the first floor hanger, you see a dwarf of a man, standing at meagre 4ft 9inches 
+  he looks up at you. "Welcome to Big Marconi's" he says as he wipes the crap and grease off himself from reaching into 
+  the various parts of the ships

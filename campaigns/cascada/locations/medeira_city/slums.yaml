@@ -1,0 +1,25 @@
+name: The Slums of Medeira
+region: medeira_city
+setting: slums
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - approach
+  - scrabs_emporium
+  - field_lab
+npcs: 
+  - medeira_guard_alpha
+  - medeira_beggar
+  - bandit_alpha
+  - bandit_beta
+items: []
+assets:
+  - medeira_slums.jpg
+description: >
+  The medeira slums are a rough tightly packed space, full of peasants, scavangers, scrappers and various 
+  other criminal entities looking for a living. In the centre, a small ray of hope, a Scientific Institute Field Lab
+  contrasted, rather brutally against the backdrop of a The Scrab's Emporium, a multi-level store of stolen goods, 
+  poorly maintained tech and a selection of other delicious illegal hardware that on Quorum world's would carry the 
+  death penalty
