@@ -7,6 +7,10 @@ scale: immediate #immediate, short, long, very long
 elemental: none #small fire, large fire, electrical, radiation
 adjacent:
   - digsite/desert
+  - market_centre
+  - red_light_district
+  - slums
+  - governors_sanctum
 npcs: 
   - medeira_guard
 items: []

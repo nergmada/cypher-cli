@@ -1,0 +1,27 @@
+name: The Governor's Sanctum
+region: medeira_city
+setting: governors_sanctum
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - tavern
+  - approach
+  - market_centre
+  - slums
+  - red_light_district
+  - palace
+npcs: 
+  - medeira_guard_alpha
+  - medeira_guard_beta 
+  - medeira_guard_charlie
+  - medeira_guard_delta
+items: []
+assets:
+  - palace_2.jpg
+description: >
+  The Governor's Sanctum is without a doubt the most beautiful of the districts in Medeira, almost entirely owned 
+  by Medeira and her various consorts and cronies, it is a fusion of technological towers, at the heart of it an 
+  ancient palace, restore to much of its original form. But the outer gates of the district are guarded by a heavy 
+  division of personal bodyguards. Entry is strictly forbidden except to those with an invitation.

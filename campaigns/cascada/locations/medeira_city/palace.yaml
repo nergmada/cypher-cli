@@ -1,0 +1,25 @@
+name: Medeira's Palace
+region: medeira_city
+setting: palace
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - governors_sanctum
+  - throne_room
+npcs: 
+  - medeira_guard_alpha
+  - medeira_guard_beta
+  - medeira_guard_charlie
+  - medeira_guard_delta
+  - medeira_tank_alpha
+  - medeira_tank_beta
+items: []
+assets:
+  - palace.jpg
+description: >
+  The palace is somewhat out of place in the rest of Medeira, almost every inch of the city has been corrupted by it's 
+  reinhabitation by the human race. Yet Medeira's Palace is perfectly preserved, and by comparison, small and unwhelming.
+  Ornate silks decorate its many towers, each with a visible military presence. If Medeira's garishness has yet to corrupt this 
+  palace's architecture, it certainly has corrupted the ambiance.

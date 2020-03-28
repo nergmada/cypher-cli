@@ -32,7 +32,8 @@ description: >
   those so poor that they have no choice but to seek the technology they need to live from a black market so prepared to take 
   an entire person's life saving for a replacement digi-kidney.
 
-  One day, whilst cracking an Orrin base you hear gun shots from a nearby archive room. As you draw your harpoon and approach, 
+  One day, whilst cracking an Orrin base's security systems for a mysterious employer who seemed very interested in some very boring 
+  aspects of Orrin's security you hear gun shots from a nearby archive room. As you draw your harpoon and approach, 
   the rest becomes a blur.
 updates:
   - name: Archival Mercy
@@ -45,6 +46,10 @@ updates:
       As you attempt to get a power cable from the engine to the main lounge, the professor wires up a radio telescope for transmission
       the professor is clearly intelligent, but has no regard for quality craftmanship. Still, as The Citrine Eagle comes under fire, you 
       help send this broadcast. But who you're transmitting to is still not clear.
+  - name: My Employer's an AI
+    info: > 
+      The hologram of Karan-Dan flashes off and you realise that your employment to infiltrate the archive was to assist in 
+      the liberation of an AI. Sent to disable security protocols that seemed of little value of interest, the job makes sense.
 #character references:
 #  - Professor Farnsworth
 #  - Doc Brown

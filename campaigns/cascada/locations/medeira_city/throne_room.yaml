@@ -1,0 +1,21 @@
+name: Medeira's Throne Room
+region: medeira_city
+setting: palace
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: immediate #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - palace
+npcs: 
+  - medeira
+  - karan_dan
+  - alexi_mihail
+items: []
+assets:
+  - palace.jpg
+description: >
+  The throne room is striking and captivating, the tilted scales at the back speak volumes about the kind of woman
+  who rules here. The room itself, however, has no visible military presence. Not a single guard to corrupt the otherwise
+  regal feel of this space. Stood to the left, in a somewhat less than regal style, Medeira, the indisputable Queen of 
+  Medeira City.

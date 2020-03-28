@@ -7,6 +7,9 @@ scale: immediate #immediate, short, long, very long
 elemental: none #small fire, large fire, electrical, radiation
 adjacent:
   - approach
+  - market_centre
+  - red_light_district
+  - governors_sanctum
   - scrabs_emporium
   - field_lab
 npcs: 

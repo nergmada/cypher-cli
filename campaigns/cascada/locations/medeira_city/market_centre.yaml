@@ -7,6 +7,9 @@ scale: immediate #immediate, short, long, very long
 elemental: none #small fire, large fire, electrical, radiation
 adjacent:
   - approach
+  - red_light_district
+  - slums
+  - governors_sanctum
   - comms_centre
   - shipwright
 npcs: 

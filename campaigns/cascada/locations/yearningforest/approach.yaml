@@ -1,0 +1,21 @@
+name: The Yearning Forest Approach
+region: yearningforest
+setting: approach
+lighting: normal #normal, dim, very dim
+gravity: high #normal, low, high
+scale: very long #immediate, short, long, very long
+elemental: none #small fire, large fire, electrical, radiation
+adjacent:
+  - medeira_city/approach
+  - firebreak
+npcs: 
+  - alexi_ship
+items: []
+assets:
+  - forest_approach.png
+description: >
+  The desert collides with the yearning forest in a shocking way. A near barren waste land almost instantly fills with 
+  vegatation on a scale of unbelieveable magnitude. In the distance, what was once a searing heat, has been dropped to 
+  a wintery chill. Visible snow storms lie ahead in The Yearning Forest. The meteological climate of Cascada, providing 
+  an unusual clash of distinct biomes.
+  Overhead, Alexi Mihail's ship disappears into the distance as you give chase

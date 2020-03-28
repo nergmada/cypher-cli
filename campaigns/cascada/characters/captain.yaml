@@ -71,7 +71,10 @@ updates:
       on the planet, your insurance should cover it.
       You have local information and can use your local insight to your advantage as you explore and seek out you and your 
       parties needs. 
-
+  - name: That Snake tricked me
+    info: >
+      As Karan-Dan's hologram evapourates, you realise he sent you to pick up the professor and the agent. He set in motion 
+      the chain of events that led to you being here. An alliance of false pretenses. But do you regret it...?
 ##derived from descriptor and type
 #stats:
 #  - might: 10
