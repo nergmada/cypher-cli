@@ -1,6 +1,6 @@
 name: Medeira's Throne Room
 region: medeira_city
-setting: palace
+setting: throne_room
 lighting: normal #normal, dim, very dim
 gravity: high #normal, low, high
 scale: immediate #immediate, short, long, very long

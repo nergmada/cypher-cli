@@ -1,6 +1,6 @@
 name: 
-  - Casa of Memphia and Anutut
-identifier: casa
+  - Cada of Memphia and Anutut
+identifier: cada
 level: 8
 health: 24
 damage: 6
@@ -9,6 +9,6 @@ known: False
 description_visible: True
 modifiers: impervious to projective and melee damage
 description: >
-  Casa has crimson red hair, and green eyes that would be unreal... Which they are. A roman nose. 
+  Cada has crimson red hair, and green eyes that would be unreal... Which they are. A roman nose. 
   Wearing a simple robe, here calm expression looks at you with ease. The mind of someone unburdened by
   the fears of mere mortals.

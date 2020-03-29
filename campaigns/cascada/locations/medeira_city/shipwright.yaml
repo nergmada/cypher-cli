@@ -6,7 +6,7 @@ gravity: high #normal, low, high
 scale: immediate #immediate, short, long, very long
 elemental: none #small fire, large fire, electrical, radiation
 adjacent:
-  - market_centre.yaml
+  - market_centre
 npcs: 
   - big_marconi
 items: []

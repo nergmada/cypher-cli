@@ -1,6 +1,6 @@
 name: The Memphia Opera House
 region: digsite
-setting: library
+setting: operahouse
 lighting: very dim #normal, dim, very dim
 gravity: high #normal, low, high
 scale: immediate #immediate, short, long, very long
